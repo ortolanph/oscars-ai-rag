@@ -3,6 +3,7 @@ package pt.pauloortolan.oscarsairag.service;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.ai.vectorstore.VectorStore;
@@ -20,6 +21,7 @@ public class OscarsRagService {
 
     private final ChatClient chatClient;
     private final VectorStore vectorStore;
+    private final MetricsRecorder metricsRecorder;
 
     public String ask(String prompt) {
         log.info("OscarsRagService.ask(prompt = {})", prompt);
@@ -45,9 +47,13 @@ public class OscarsRagService {
                 Question: %s
                 """.formatted(context, prompt);
 
-        return chatClient.prompt()
+        ChatResponse response = chatClient.prompt()
                 .user(augmentedPrompt)
                 .call()
-                .content();
+                .chatResponse();
+
+        metricsRecorder.recordMetrics(response);
+
+        return response.getResult().getOutput().getText();
     }
 }

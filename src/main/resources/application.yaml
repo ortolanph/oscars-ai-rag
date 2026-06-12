@@ -1,7 +1,6 @@
 app:
   oscars:
     csv-path: classpath:datasource/oscars.csv
-    max-rows: 500
 
 spring:
   application:
@@ -25,6 +24,9 @@ spring:
         index: oscars-index
         prefix: "oscars:"
         initialize-schema: true
+    observations:
+      include-prompt: true     # careful with sensitive data
+      include-completion: true
 
 management:
   endpoints:

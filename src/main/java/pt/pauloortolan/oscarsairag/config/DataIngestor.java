@@ -7,10 +7,10 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.vectorstore.VectorStore;
-import org.springframework.context.annotation.Bean;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ResourceLoader;
-import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
+import org.springframework.data.redis.core.StringRedisTemplate;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -22,22 +22,33 @@ import java.util.Map;
 @Slf4j
 @Configuration
 @RequiredArgsConstructor
-public class DataIngestionConfig {
+public class DataIngestor {
 
     private static final int BATCH_SIZE = 500;
 
     private final VectorStore vectorStore;
-    private final OscarsProperties properties;
     private final ResourceLoader resourceLoader;
+    private final StringRedisTemplate redisTemplate;
+
+    @Value("${app.oscars.csv-path}")
+    private String csvPath;
 
     @PostConstruct
     public void ingestData() throws IOException, CsvValidationException {
         log.info("DataIngestionConfig.ingestData()");
-        log.info("Starting Oscars data ingestion from '{}'", properties.getCsvPath());
+        log.info("Starting Oscars data ingestion from '{}'", csvPath);
 
-        List<Document> batch = new ArrayList<>(BATCH_SIZE);
+        Long existing = redisTemplate.execute(
+                connection -> connection.serverCommands().dbSize(), true
+        );
+
+        if (existing != null && existing > 0) {
+            log.info("Redis already contains {} keys — skipping ingestion.", existing);
+            return;
+        }
+
+        List<Document> batch = new ArrayList<>();
         int count = 0;
-        int maxRows = properties.getMaxRows();
 
         try (CSVReader reader = openCsv()) {
             String[] header = reader.readNext();
@@ -48,8 +59,6 @@ public class DataIngestionConfig {
 
             String[] row;
             while ((row = reader.readNext()) != null) {
-                if (maxRows > 0 && count >= maxRows) break;
-
                 Document doc = toDocument(row);
                 batch.add(doc);
                 count++;
@@ -70,17 +79,10 @@ public class DataIngestionConfig {
 
     private CSVReader openCsv() throws IOException {
         log.info("DataIngestionConfig.openCsv()");
-        var resource = resourceLoader.getResource(properties.getCsvPath());
+        var resource = resourceLoader.getResource(csvPath);
         return new CSVReader(new InputStreamReader(resource.getInputStream()));
     }
 
-    /**
-     * CSV columns: year_film, year_ceremony, ceremony, category, canon_category,
-     * name, film, winner
-     * <p>
-     * Converts one row into a natural-language sentence so the embedding model
-     * can reason about it semantically.
-     */
     private Document toDocument(String[] row) {
         log.info("DataIngestionConfig.toDocument(row={})", Arrays.toString(row));
         String yearFilm = safeGet(row, 0);
