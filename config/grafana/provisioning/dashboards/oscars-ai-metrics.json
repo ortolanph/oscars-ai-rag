@@ -183,7 +183,7 @@
       },
       "targets": [
         {
-          "expr": "spring_ai_tokens_total",
+          "expr": "sum(increase(spring_ai_tokens_total[5m]))",
           "refId": "A",
           "legendFormat": "Total Tokens"
         }
@@ -263,7 +263,7 @@
       },
       "targets": [
         {
-          "expr": "spring_ai_finish_reason",
+          "expr": "sum by (reason) (increase(spring_ai_finish_reason[5m]))",
           "refId": "A",
           "legendFormat": "{{reason}}"
         }
