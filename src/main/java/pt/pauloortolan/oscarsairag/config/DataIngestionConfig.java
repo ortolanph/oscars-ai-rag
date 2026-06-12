@@ -1,36 +1,38 @@
 package pt.pauloortolan.oscarsairag.config;
 
+import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvValidationException;
+import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.vectorstore.VectorStore;
-import org.springframework.boot.ApplicationArguments;
-import org.springframework.boot.ApplicationRunner;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ResourceLoader;
-import org.springframework.stereotype.Component;
+import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-@Component
+@Slf4j
+@Configuration
 @RequiredArgsConstructor
-public class DataIngestionConfig implements ApplicationRunner {
+public class DataIngestionConfig {
 
-    private static final Logger log = LoggerFactory.getLogger(DataIngestionConfig.class);
-
-    private static final int BATCH_SIZE = 50;
+    private static final int BATCH_SIZE = 500;
 
     private final VectorStore vectorStore;
     private final OscarsProperties properties;
     private final ResourceLoader resourceLoader;
 
-
-    @Override
-    public void run(ApplicationArguments args) throws Exception {
+    @PostConstruct
+    public void ingestData() throws IOException, CsvValidationException {
+        log.info("DataIngestionConfig.ingestData()");
         log.info("Starting Oscars data ingestion from '{}'", properties.getCsvPath());
 
         List<Document> batch = new ArrayList<>(BATCH_SIZE);
@@ -38,7 +40,7 @@ public class DataIngestionConfig implements ApplicationRunner {
         int maxRows = properties.getMaxRows();
 
         try (CSVReader reader = openCsv()) {
-            String[] header = reader.readNext(); // skip header row
+            String[] header = reader.readNext();
             if (header == null) {
                 log.warn("CSV file is empty — nothing to ingest.");
                 return;
@@ -66,11 +68,8 @@ public class DataIngestionConfig implements ApplicationRunner {
         log.info("Ingestion complete — {} documents loaded into Redis vector store.", count);
     }
 
-    // -------------------------------------------------------------------------
-    // Helpers
-    // -------------------------------------------------------------------------
-
     private CSVReader openCsv() throws IOException {
+        log.info("DataIngestionConfig.openCsv()");
         var resource = resourceLoader.getResource(properties.getCsvPath());
         return new CSVReader(new InputStreamReader(resource.getInputStream()));
     }
@@ -83,12 +82,12 @@ public class DataIngestionConfig implements ApplicationRunner {
      * can reason about it semantically.
      */
     private Document toDocument(String[] row) {
-        // Guard against malformed rows
+        log.info("DataIngestionConfig.toDocument(row={})", Arrays.toString(row));
         String yearFilm = safeGet(row, 0);
         String yearCeremony = safeGet(row, 1);
         String ceremony = safeGet(row, 2);
         String category = safeGet(row, 3);
-        String canonCat = safeGet(row, 4);
+        String canonCategory = safeGet(row, 4);
         String name = safeGet(row, 5);
         String film = safeGet(row, 6);
         String winner = safeGet(row, 7);
@@ -98,8 +97,8 @@ public class DataIngestionConfig implements ApplicationRunner {
         String text = String.format(
                 "%s was nominated at the %s Academy Awards (ceremony #%s, year %s) " +
                         "in the category \"%s\" for the film \"%s\". %s",
-                name, ordinal(yearCeremony), ceremony, yearFilm,
-                canonCat.isBlank() ? category : canonCat,
+                name, ordinal(ceremony), yearCeremony, yearFilm,
+                canonCategory.isBlank() ? category : canonCategory,
                 film,
                 isWinner ? "They WON the award." : "They did not win."
         );
@@ -107,8 +106,9 @@ public class DataIngestionConfig implements ApplicationRunner {
         return new Document(text, Map.of(
                 "year_film", yearFilm,
                 "year_ceremony", yearCeremony,
+                "ceremony", ceremony,
                 "category", category,
-                "canon_category", canonCat,
+                "canon_category", canonCategory,
                 "name", name,
                 "film", film,
                 "winner", winner
@@ -119,9 +119,6 @@ public class DataIngestionConfig implements ApplicationRunner {
         return (idx < row.length && row[idx] != null) ? row[idx].trim() : "";
     }
 
-    /**
-     * Converts "1" → "1st", "2" → "2nd", etc.
-     */
     private String ordinal(String numberStr) {
         try {
             int n = Integer.parseInt(numberStr.trim());
