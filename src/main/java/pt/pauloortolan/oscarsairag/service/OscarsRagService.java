@@ -23,7 +23,7 @@ public class OscarsRagService {
     private final VectorStore vectorStore;
     private final MetricsRecorder metricsRecorder;
 
-    public String ask(String prompt) {
+    public String ask(String prompt, String jsessionId) {
         log.info("OscarsRagService.ask(prompt = {})", prompt);
         List<Document> docs = vectorStore.similaritySearch(
                 SearchRequest.builder()
@@ -52,7 +52,7 @@ public class OscarsRagService {
                 .call()
                 .chatResponse();
 
-        metricsRecorder.recordMetrics(response);
+        metricsRecorder.recordMetrics(response, jsessionId);
 
         return response.getResult().getOutput().getText();
     }
