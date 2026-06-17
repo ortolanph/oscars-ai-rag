@@ -458,12 +458,12 @@
       },
       "targets": [
         {
-          "expr": "sum by (jsessionid) (increase(spring_ai_tokens_session_total[5m]))",
+          "expr": "sum by (username) (increase(spring_ai_tokens_session_total[5m]))",
           "refId": "A",
-          "legendFormat": "{{jsessionid}}"
+          "legendFormat": "{{username}}"
         }
       ],
-      "title": "Tokens Used by Session",
+      "title": "Tokens Used by User",
       "type": "timeseries"
     },
     {

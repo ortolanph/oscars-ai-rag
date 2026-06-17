@@ -17,7 +17,7 @@ public class MetricsRecorder {
     public static final String FINISH_REASON = "finish_reason";
     private final MeterRegistry meterRegistry;
 
-    public void recordMetrics(ChatResponse response, String jsessionId) {
+    public void recordMetrics(ChatResponse response, String username) {
         log.debug("MetricsRecorder::recordMetrics(response={})", response);
         Usage usage = response.getMetadata().getUsage();
         String finishReason = response.getResults().get(0)
@@ -42,9 +42,9 @@ public class MetricsRecorder {
                 .register(meterRegistry)
                 .increment(usage.getTotalTokens());
 
-        Counter.builder("spring.ai.tokens.session")
+        Counter.builder("spring.ai.tokens.username")
                 .description("Total tokens used per session")
-                .tag("jsessionid", jsessionId)
+                .tag("username", username)
                 .register(meterRegistry)
                 .increment(usage.getTotalTokens());
 
