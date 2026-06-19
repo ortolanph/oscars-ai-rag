@@ -12,18 +12,18 @@ import requests
 BASE_URL = "http://localhost:10002/oscars/tellme/{username}/what={question}"
 HEADERS = ["username", "delay", "modified_delay", "question", "answer"]
 USERS = [
-    {"username": "steven_spielberg", "delay": 10},
+    {"username": "steven_spielberg", "delay": 20},
     {"username": "george_lucas", "delay": 15},
     {"username": "francis_ford_coppola", "delay": 20},
-    {"username": "quentin_tarantino", "delay": 30},
+    {"username": "quentin_tarantino", "delay": 130},
     {"username": "akira_kurosawa", "delay": 50},
     {"username": "stanley_kubrick", "delay": 120},
     {"username": "david_lynch", "delay": 100},
-    {"username": "ari_aster", "delay": 45},
+    {"username": "ari_aster", "delay": 145},
     {"username": "martin_scorsese", "delay": 60},
     {"username": "ricardo_darin", "delay": 130},
     {"username": "agnes_varda", "delay": 30},
-    {"username": "kathryn_bigelow", "delay": 15},
+    {"username": "kathryn_bigelow", "delay": 115},
     {"username": "jane_campion", "delay": 20},
     {"username": "sofia_coppola", "delay": 40},
     {"username": "greta_gerwig", "delay": 30},
