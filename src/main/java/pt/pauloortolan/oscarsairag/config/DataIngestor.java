@@ -25,6 +25,7 @@ import java.util.Map;
 public class DataIngestor {
 
     private static final int BATCH_SIZE = 500;
+    public static final String OSCAR_PHRASE = "%s was nominated at the %s Academy Awards (ceremony #%s, year %s) in the category \"%s\" for the film \"%s\". %s";
 
     private final VectorStore vectorStore;
     private final ResourceLoader resourceLoader;
@@ -96,14 +97,12 @@ public class DataIngestor {
 
         boolean isWinner = "true".equalsIgnoreCase(winner.trim());
 
-        String text = String.format(
-                "%s was nominated at the %s Academy Awards (ceremony #%s, year %s) " +
-                        "in the category \"%s\" for the film \"%s\". %s",
-                name, ordinal(ceremony), yearCeremony, yearFilm,
+        String text = OSCAR_PHRASE.formatted(
+                name,
+                yearCeremony, ordinal(ceremony), yearFilm,
                 canonCategory.isBlank() ? category : canonCategory,
                 film,
-                isWinner ? "They WON the award." : "They did not win."
-        );
+                isWinner ? "They WON the award." : "They did not win.");
 
         return new Document(text, Map.of(
                 "year_film", yearFilm,
