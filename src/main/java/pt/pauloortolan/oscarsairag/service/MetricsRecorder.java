@@ -43,7 +43,7 @@ public class MetricsRecorder {
                 .increment(usage.getTotalTokens());
 
         Counter.builder("spring.ai.tokens.username")
-                .description("Total tokens used per session")
+                .description("Total tokens used per username")
                 .tag("username", username)
                 .register(meterRegistry)
                 .increment(usage.getTotalTokens());

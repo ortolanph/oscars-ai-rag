@@ -1,0 +1,222 @@
+username,delay,modified_delay,question,answer,status_code
+steven_spielberg,20,5,Which film won Best Picture in 2020?,The context does not contain information about the film that won Best Picture in 2020.,200
+george_lucas,15,13,Which actor has the most nominations in the dataset?,"The context does not provide enough information to determine which actor has the most nominations, as it only lists a few nominees without indicating how many total nominations each actor has received overall.",200
+francis_ford_coppola,20,17,How many Best Picture winners are in the dataset?,"There are 2 Best Picture winners in the dataset: ""Gone with the Wind"" and ""12 Years a Slave.""",200
+quentin_tarantino,130,61,Did Leonardo di Caprio won an Oscar?,The context does not contain enough information to determine if Leonardo DiCaprio won an Oscar.,200
+akira_kurosawa,50,41,What are the movies on which Meryl Streep won an Oscar?,"Meryl Streep won an Oscar for the films ""Sophie's Choice"" and ""The Iron Lady.""",200
+stanley_kubrick,120,115,Which film won Best Picture in 2020?,The context does not contain information about the winner of the Best Picture award in 2020.,200
+david_lynch,100,84,"How many Oscars did ""Oppenheimer"" win?","""Oppenheimer"" won three Oscars.",200
+ari_aster,145,113,"How many Oscars did ""Oppenheimer"" win?","""Oppenheimer"" won three Oscars at the 2024 Academy Awards: in the categories of ""CINEMATOGRAPHY,"" ""DIRECTING,"" and ""BEST PICTURE.""",200
+martin_scorsese,60,20,"What are the Big Five movies? The Big Five movies are those that wins the top five primary categories: Best Picture, Best Director, Best Actor, Best Actress, and Best Screenplay (Original or Adapted).",The context does not contain enough information to provide the titles of the Big Five movies.,200
+ricardo_darin,130,28,Which person has the highest number of Oscar wins recorded in the dataset?,"The context does not provide enough information to determine how many Oscar wins each individual has outside of the instances mentioned. Therefore, I cannot identify which person has the highest number of Oscar wins recorded in the dataset.",200
+agnes_varda,30,27,Did Leonardo di Caprio won an Oscar?,The context does not contain any information about Leonardo DiCaprio winning an Oscar.,200
+kathryn_bigelow,115,28,Did Leonardo DiCaprio ever win an Oscar?,The context does not provide information about Leonardo DiCaprio winning an Oscar.,200
+jane_campion,20,19,"Which nominations did ""Avatar"" receive?","""Avatar"" received the following nominations at the 2010 Academy Awards (ceremony #82nd, year 2009):
+1. DIRECTING (James Cameron)
+2. FILM EDITING (Stephen Rivkin/John Refoua/James Cameron)
+3. BEST PICTURE (James Cameron/Jon Landau)
+4. VISUAL EFFECTS (Joe Letteri/Stephen Rosenbaum/Richard Baneham/Andrew R. Jones) - *won* the award.",200
+sofia_coppola,40,21,Who won Best Actor in a Leading Role in 2000?,The context does not contain information about who won Best Actor in a Leading Role in 2000.,200
+greta_gerwig,30,26,Which films were nominated for Best International Feature Film in 2021?,"The context does not provide information about the films nominated for Best International Feature Film in 2021, only that Italy was nominated for ""The Hand of God"" and did not win. Therefore, I cannot answer the question about the other nominations for that year.",200
+chloe_zhao,150,96,Which Oscar categories has Steven Spielberg won?,"Steven Spielberg has won in the category ""IRVING G. THALBERG MEMORIAL AWARD"" and ""DIRECTING"" for the film ""Schindler's List.""",200
+lina_wertmüller,180,108,Which movie won Best Cinematography in 2016?,"The movie that won Best Cinematography in 2016 was ""The Revenant"".",200
+mira_nair,30,14,Which category has existed for more ceremonies: Directing or Film Editing?,"The context provided only mentions the category of ""DIRECTING"" with nominations from the 1948 and 2001 Academy Awards. The category ""FILM EDITING"" is only mentioned with a nomination in the 2001 Academy Awards. Therefore, based on this information, we cannot determine which category has existed for more ceremonies.",200
+celine_sciamma,60,17,How many films won more than one Oscar in 2014?,The context does not contain enough information to determine how many films won more than one Oscar in 2014.,200
+sarah_polley,30,23,Who won Best Film Editing in 2023?,The context does not contain enough information to answer who won Best Film Editing in 2023.,200
+steven_spielberg,20,17,How many films won more than one Oscar in 2014?,The context does not contain enough information to answer how many films won more than one Oscar in 2014.,200
+george_lucas,15,11,What was the Best Picture winner at the first Academy Awards ceremony?,The context does not contain enough information to answer the question about the Best Picture winner at the first Academy Awards ceremony.,200
+francis_ford_coppola,20,17,Which actor has the most nominations in the dataset?,"The context does not provide enough information to determine which actor has the most nominations in the dataset, as it only includes nominations for Jack Nicholson, Matt Damon, Adam Driver, Colman Domingo, and Sebastian Stan without a total count for each actor.",200
+quentin_tarantino,130,24,Which actresses were nominated for Best Actress in a Leading Role in 2010?,"The actresses nominated for Best Actress in a Leading Role in 2010 at the 2011 Academy Awards (ceremony #83rd) were Natalie Portman for ""Black Swan"" (who won) and Michelle Williams for ""Blue Valentine"" (who did not win).",200
+akira_kurosawa,50,12,Which decade had the most Best Picture winners represented?,The context does not contain enough information to determine which decade had the most Best Picture winners represented.,200
+stanley_kubrick,120,117,Which film won Best Picture in 2020?,The context does not contain enough information to answer that question.,200
+david_lynch,100,66,Which film won Best Picture in the year 2000 ceremony?,"The film that won Best Picture in the 2000 Academy Awards (ceremony #73rd, year 2000) was ""Gladiator"".",200
+ari_aster,145,5,What are the movies on which Meryl Streep won an Oscar?,"Meryl Streep won an Oscar for the films ""Sophie's Choice"" and ""The Iron Lady.""",200
+martin_scorsese,60,42,Which Oscar categories has Steven Spielberg won?,"Steven Spielberg has won in the category ""IRVING G. THALBERG MEMORIAL AWARD"" and ""DIRECTING"" for the film ""Schindler's List"".",200
+ricardo_darin,130,90,"Did ""La La Land"" win Best Picture?","No, ""La La Land"" did not win Best Picture.",200
+agnes_varda,30,15,Which decade had the most Best Picture winners represented?,The context provided does not contain enough information to determine which decade had the most Best Picture winners represented.,200
+kathryn_bigelow,115,71,"Which Oscars did ""The Lord of the Rings: The Return of the King"" win?","""The Lord of the Rings: The Return of the King"" won the following Oscars at the 2004 Academy Awards (ceremony #76th, year 2003):
+
+1. Best Directing - Peter Jackson
+2. Best Film Editing - Jamie Selkirk
+3. Best Picture - Barrie M. Osborne/Peter Jackson/Fran Walsh
+4. Best Sound Mixing - Christopher Boyes/Michael Semanick/Michael Hedges/Hammond Peek
+5. Best Visual Effects - Jim Rygiel/Joe Letteri/Randall William Cook/Alex Funke",200
+jane_campion,20,16,Who won Best Picture in 1994?,"The Best Picture award in 1994 was won by Steven Spielberg, Gerald R. Molen, and Branko Lustig for the film ""Schindler's List.""",200
+sofia_coppola,40,26,Who won Best Actress in a Leading Role in 2015?,"Brie Larson won Best Actress in a Leading Role in 2015 for the film ""Room.""",200
+greta_gerwig,30,19,Who won Best Picture in 1994?,"The winner of Best Picture in 1994 was Steven Spielberg, Gerald R. Molen, and Branko Lustig for the film ""Schindler's List"".",200
+chloe_zhao,150,127,When was the first Oscar awarded for Best Animated Feature?,The context does not contain enough information to answer when the first Oscar was awarded for Best Animated Feature.,200
+lina_wertmüller,180,54,Did Leonardo DiCaprio win before The Revenant?,"No, Leonardo DiCaprio did not win any Oscars before The Revenant.",200
+mira_nair,30,19,List all Best Original Screenplay winners from the 1980s,The context does not provide enough information to list all Best Original Screenplay winners from the 1980s. It only mentions winners and nominees from specific years during that decade.,200
+celine_sciamma,60,42,"Which film won more Oscars: ""Titanic"" or ""Ben-Hur""?","The context provides information about the Oscars won by ""Ben-Hur,"" specifically that it won four awards (for Actor in a Leading Role, Cinematography, Directing, and Best Picture). However, it does not provide any information about the number of Oscars won by ""Titanic."" Therefore, I cannot determine which film won more Oscars based on the provided context.",200
+sarah_polley,30,29,Which actor has the most nominations in the dataset?,The context does not provide enough information to determine which actor has the most nominations in the dataset.,200
+steven_spielberg,20,7,Was Citizen Kane ever nominated for Best Picture?,"Yes, ""Citizen Kane"" was nominated for Best Picture at the 1942 Academy Awards.",200
+george_lucas,15,14,Which film won Best Picture in 2020?,The context does not contain enough information to determine which film won Best Picture in 2020.,200
+francis_ford_coppola,20,16,What are the movies on which Daniel Day Lewis won an Oscar?,"Daniel Day-Lewis won an Oscar for the following films:
+1. My Left Foot
+2. There Will Be Blood
+3. Lincoln",200
+quentin_tarantino,130,27,"What are the Big Five movies? The Big Five movies are those that wins the top five primary categories: Best Picture, Best Director, Best Actor, Best Actress, and Best Screenplay (Original or Adapted).",The provided context does not contain enough information to identify the Big Five movies.,200
+akira_kurosawa,50,26,Which category has the most nominations?,The context does not contain enough information to determine which category has the most nominations.,200
+stanley_kubrick,120,107,"Did ""Titanic"" win Best Picture?","Yes, ""Titanic"" won Best Picture at the 1998 Academy Awards.",200
+david_lynch,100,32,"Which film won more Oscars: ""Titanic"" or ""Ben-Hur""?","The context does not contain enough information to answer the question about how many Oscars ""Titanic"" won compared to ""Ben-Hur"".",200
+ari_aster,145,140,Who were the Best Director nominees at the 50th ceremony?,The context does not contain enough information to answer the question about the Best Director nominees at the 50th ceremony.,200
+martin_scorsese,60,34,Was Citizen Kane ever nominated for Best Picture?,"Yes, ""Citizen Kane"" was nominated for Best Picture at the 1942 Academy Awards.",200
+ricardo_darin,130,7,How many nominations were recorded for the 2025 ceremony?,The context does not contain any information about the 2025 Academy Awards ceremony or any nominations associated with it.,200
+agnes_varda,30,30,Did Natalie Portman won an oscar?,"Yes, Natalie Portman won an Oscar for ""Black Swan"" at the 2011 Academy Awards.",200
+kathryn_bigelow,115,19,"Between 2010 and 2020, which film received the most Oscar wins?",The context does not contain enough information to determine which film received the most Oscar wins between 2010 and 2020.,200
+jane_campion,20,11,"Did ""Titanic"" win Best Picture?","Yes, ""Titanic"" won Best Picture at the 1998 Academy Awards.",200
+sofia_coppola,40,24,How many films won more than one Oscar in 2014?,The context does not provide enough information to determine how many films won more than one Oscar in 2014.,200
+greta_gerwig,30,25,"What are the Big Five movies? The Big Five movies are those that wins the top five primary categories: Best Picture, Best Director, Best Actor, Best Actress, and Best Screenplay (Original or Adapted).",The context does not provide enough information to identify the Big Five movies.,200
+chloe_zhao,150,94,Which movie won Best Cinematography in 2016?,"""The Revenant"" won Best Cinematography in 2016.",200
+lina_wertmüller,180,39,Did Leonardo di Caprio won an Oscar?,The context does not provide enough information to determine if Leonardo DiCaprio won an Oscar.,200
+mira_nair,30,20,What are the movies on which Meryl Streep won an Oscar?,"Meryl Streep won an Oscar for the films ""Sophie's Choice"" and ""The Iron Lady.""",200
+celine_sciamma,60,30,Which person has the highest number of Oscar wins recorded in the dataset?,"The context does not contain enough information to determine which person has the highest number of Oscar wins recorded in the dataset. All mentioned individuals won their respective awards, but the dataset does not indicate how many total wins each person has across different years or categories.",200
+sarah_polley,30,30,Who won Best Supporting Actress in 2008?,The context does not contain information about the winner of Best Supporting Actress in 2008.,200
+steven_spielberg,20,8,Was Citizen Kane ever nominated for Best Picture?,"Yes, ""Citizen Kane"" was nominated for Best Picture at the 1942 Academy Awards.",200
+george_lucas,15,8,Was Citizen Kane ever nominated for Best Picture?,"Yes, ""Citizen Kane"" was nominated for Best Picture at the 1942 Academy Awards.",200
+francis_ford_coppola,20,20,How many films won more than one Oscar in 2014?,The context does not contain enough information to determine how many films won more than one Oscar in 2014.,200
+quentin_tarantino,130,129,Which actresses were nominated for Best Actress in a Leading Role in 2010?,"The actresses nominated for Best Actress in a Leading Role in 2010 (at the 2011 Academy Awards, ceremony #83rd) were Natalie Portman for ""Black Swan"" and Michelle Williams for ""Blue Valentine"".",200
+akira_kurosawa,50,31,"Did ""La La Land"" win Best Picture?","No, ""La La Land"" did not win Best Picture.",200
+stanley_kubrick,120,75,Who won Best Picture in 1994?,"The Best Picture winner in 1994 was Steven Spielberg, Gerald R. Molen, and Branko Lustig for the film ""Schindler's List.""",200
+david_lynch,100,50,Which films earned Oscars for Tom Hanks?,"The films that earned Oscars for Tom Hanks are ""Philadelphia"" and ""Forrest Gump"".",200
+ari_aster,145,49,Did Leonardo DiCaprio win before The Revenant?,"No, Leonardo DiCaprio did not win any Academy Awards before ""The Revenant.""",200
+martin_scorsese,60,19,Who won Best Supporting Actress in 2008?,The context does not contain enough information to answer the question about who won Best Supporting Actress in 2008.,200
+ricardo_darin,130,74,For which films did Katharine Hepburn win Oscars?,"Katharine Hepburn won Oscars for the films ""Guess Who's Coming to Dinner"" and ""The Lion in Winter"".",200
+agnes_varda,30,17,Who won Best Picture in 1994?,"The Best Picture winner in 1994 was Steven Spielberg, Gerald R. Molen, and Branko Lustig for the film ""Schindler's List"".",200
+kathryn_bigelow,115,17,Did Leonardo di Caprio won an Oscar?,The context does not contain enough information to answer whether Leonardo DiCaprio won an Oscar.,200
+jane_campion,20,19,"Was ""Citizen Kane"" ever an Oscar winner?","Yes, ""Citizen Kane"" won an Oscar for ""WRITING (Original Screenplay)"" at the 1942 Academy Awards.",200
+sofia_coppola,40,31,Did Leonardo DiCaprio win before The Revenant?,"No, Leonardo DiCaprio did not win any Oscars before ""The Revenant.""",200
+greta_gerwig,30,7,How many Best Picture winners are in the dataset?,"There are two Best Picture winners in the dataset: ""Gone with the Wind"" and ""12 Years a Slave"".",200
+chloe_zhao,150,57,Who won Best Supporting Actor in 2012?,The context does not contain information about who won Best Supporting Actor in 2012.,200
+lina_wertmüller,180,57,"How many Oscars did ""Oppenheimer"" win?","""Oppenheimer"" won a total of three Oscars.",200
+mira_nair,30,29,Who won Best Actor in a Leading Role in 2000?,"Russell Crowe won Best Actor in a Leading Role in 2000 for the film ""Gladiator"".",200
+celine_sciamma,60,26,Who won Best Picture in 1994?,"The Best Picture in 1994 was won by Steven Spielberg, Gerald R. Molen, and Branko Lustig for the film ""Schindler's List"".",200
+sarah_polley,30,23,Which actor has the most nominations in the dataset?,The dataset does not contain enough information to determine which actor has the most nominations. Each actor mentioned has been nominated only once.,200
+steven_spielberg,20,8,Which actresses were nominated for Best Actress in a Leading Role in 2010?,"The actresses nominated for Best Actress in a Leading Role in 2010 were Natalie Portman for ""Black Swan"" and Michelle Williams for ""Blue Valentine.""",200
+george_lucas,15,11,Which actor has the most nominations in the dataset?,"The context does not provide enough information to determine which actor has the most nominations, as it only includes individual nominations without indicating if any actors have multiple nominations across different years or films.",200
+francis_ford_coppola,20,19,Who were the Best Director nominees at the 50th ceremony?,The context does not contain enough information to answer the question about the Best Director nominees at the 50th ceremony.,200
+quentin_tarantino,130,20,"Which film won more Oscars: ""Titanic"" or ""Ben-Hur""?","The context does not contain enough information to answer which film won more Oscars between ""Titanic"" and ""Ben-Hur"".",200
+akira_kurosawa,50,39,Which actor has the most nominations in the dataset?,"The context provided does not specify the total number of nominations for each actor, so it is not possible to determine which actor has the most nominations based on the information given.",200
+stanley_kubrick,120,7,Who were the Best Director nominees at the 50th ceremony?,The context does not contain enough information to provide the names of the Best Director nominees at the 50th ceremony.,200
+david_lynch,100,45,Which films earned Oscars for Tom Hanks?,"The films that earned Oscars for Tom Hanks are ""Philadelphia"" and ""Forrest Gump"".",200
+ari_aster,145,62,Did Natalie Portman won an oscar?,"Yes, Natalie Portman won an Oscar at the 2011 Academy Awards for ""ACTRESS IN A LEADING ROLE"" for the film ""Black Swan.""",200
+martin_scorsese,60,46,What are the movies on which Daniel Day Lewis won an Oscar?,"Daniel Day-Lewis won an Oscar for the following movies:
+1. My Left Foot
+2. There Will Be Blood
+3. Lincoln",200
+ricardo_darin,130,81,Who won Best Actor in a Leading Role in 2000?,The context does not contain enough information to determine who won Best Actor in a Leading Role in 2000.,200
+agnes_varda,30,14,Which Oscar categories has Steven Spielberg won?,"Steven Spielberg has won in the category ""IRVING G. THALBERG MEMORIAL AWARD"" and in the category ""DIRECTING"" for the film ""Schindler's List"".",200
+kathryn_bigelow,115,50,"Was ""Citizen Kane"" ever an Oscar winner?","Yes, ""Citizen Kane"" won an Oscar for ""WRITING (Original Screenplay)"" at the 1942 Academy Awards.",200
+jane_campion,20,19,Which film won Best Original Song in 1997?,The context does not contain enough information to answer which film won Best Original Song in 1997.,200
+sofia_coppola,40,14,Who were the Best Director nominees at the 50th ceremony?,The context does not contain enough information to answer the question about the Best Director nominees at the 50th ceremony.,200
+greta_gerwig,30,27,Which category has existed for more ceremonies: Directing or Film Editing?,"The Directing category has existed for more ceremonies. The Directing category was present at the 1948 Academy Awards (20th ceremony), while the Film Editing category was only introduced later, at the 73rd Academy Awards (2001 ceremony).",200
+chloe_zhao,150,38,Which person has the highest number of Oscar wins recorded in the dataset?,The context does not contain enough information to determine which person has the highest number of Oscar wins recorded in the dataset.,200
+lina_wertmüller,180,25,"Which film won more Oscars: ""Titanic"" or ""Ben-Hur""?","The context does not contain enough information to determine how many Oscars ""Titanic"" won. However, it does state that ""Ben-Hur"" won 4 Oscars at the 1960 Academy Awards. Therefore, I cannot definitively answer which film won more Oscars.",200
+mira_nair,30,5,"Did Meryl Streep win an Oscar for ""The Iron Lady""?","Yes, Meryl Streep won an Oscar for ""The Iron Lady"".",200
+celine_sciamma,60,24,Which films were nominated for Best Picture in 2018?,"The films nominated for Best Picture in 2018 (ceremony #90th, year 2017) were ""Get Out"" and ""The Post"".",200
+sarah_polley,30,13,Who won Best Film Editing in 2023?,The context does not contain enough information to determine who won Best Film Editing in 2023.,200
+steven_spielberg,20,15,What are the movies on which Meryl Streep won an Oscar?,"Meryl Streep won an Oscar for the films ""Sophie's Choice"" and ""The Iron Lady"".",200
+george_lucas,15,12,Which Oscar categories has Steven Spielberg won?,"Steven Spielberg has won in the category ""IRVING G. THALBERG MEMORIAL AWARD"" and ""DIRECTING"" for the film ""Schindler's List"".",200
+francis_ford_coppola,20,11,Who were the nominees for Best Actor in a Leading Role in 2022?,"The nominees for Best Actor in a Leading Role in 2022 were Javier Bardem for ""Being the Ricardos"" and Will Smith for ""King Richard"".",200
+quentin_tarantino,130,32,How many nominations does Martin Scorsese have in the dataset?,Martin Scorsese has five nominations in the dataset.,200
+akira_kurosawa,50,5,"Was ""Citizen Kane"" ever an Oscar winner?","Yes, ""Citizen Kane"" won an Oscar for ""WRITING (Original Screenplay)"" at the 1942 Academy Awards.",200
+stanley_kubrick,120,104,"Between 2010 and 2020, which film received the most Oscar wins?",The context does not contain enough information to determine which film received the most Oscar wins between 2010 and 2020.,200
+david_lynch,100,43,Which films were nominated for Best Picture in 2018?,"The films nominated for Best Picture in 2018 (ceremony #90th, year 2017) were ""Get Out"" and ""The Post.""",200
+ari_aster,145,20,Which films were nominated for Best Picture in 2018?,"The films nominated for Best Picture in 2018 were ""Get Out"" and ""The Post.""",200
+martin_scorsese,60,59,What films were nominated for Best Original Screenplay in 2019?,The context provided does not contain enough information to answer the question about the films that were nominated for Best Original Screenplay in 2019.,200
+ricardo_darin,130,11,Who won the Oscar for Directing in 2019?,"Bong Joon Ho won the Oscar for Directing in 2019 for the film ""Parasite.""",200
+agnes_varda,30,9,What categories existed in the 1928 ceremony?,The context does not provide enough information about the specific categories that existed in the 1928 Academy Awards ceremony.,200
+kathryn_bigelow,115,44,Which film won Best Original Song in 1997?,The context does not contain enough information to determine which film won Best Original Song in 1997.,200
+jane_campion,20,11,Who won Best Supporting Actress in 2008?,The context does not contain enough information to answer who won Best Supporting Actress in 2008.,200
+sofia_coppola,40,17,Who won the Oscar for Directing in 2019?,"Bong Joon Ho won the Oscar for Directing in 2019 for the film ""Parasite.""",200
+greta_gerwig,30,14,Was Citizen Kane ever nominated for Best Picture?,"Yes, ""Citizen Kane"" was nominated for Best Picture at the 1942 Academy Awards.",200
+chloe_zhao,150,98,"Was ""Citizen Kane"" ever an Oscar winner?","Yes, ""Citizen Kane"" won an Oscar for ""WRITING (Original Screenplay)"" at the 1942 Academy Awards.",200
+lina_wertmüller,180,174,Which person has the highest number of Oscar wins recorded in the dataset?,The context does not provide enough information to determine which person has the highest number of Oscar wins recorded in the dataset since it only states that each listed individual won their respective awards without mentioning any additional wins.,200
+mira_nair,30,13,Which Oscar categories has Steven Spielberg won?,"Steven Spielberg has won in the category ""IRVING G. THALBERG MEMORIAL AWARD"" and ""DIRECTING"" for the film ""Schindler's List"".",200
+celine_sciamma,60,36,Which category has the most nominations?,The context does not contain enough information to determine which category has the most nominations.,200
+sarah_polley,30,29,Who won Best Actor in a Leading Role in 2000?,The context does not provide information about the winners of the Best Actor in a Leading Role in 2000.,200
+steven_spielberg,20,20,How many nominations were recorded for the 2025 ceremony?,The context does not contain any information about the nominations for the 2025 Academy Awards.,200
+george_lucas,15,12,For which films did Katharine Hepburn win Oscars?,"Katharine Hepburn won Oscars for the films ""Guess Who's Coming to Dinner"" and ""The Lion in Winter"".",200
+francis_ford_coppola,20,9,Which category has existed for more ceremonies: Directing or Film Editing?,"The category of Directing has existed for more ceremonies than Film Editing. The Directing category was first introduced at the 1st Academy Awards in 1929, while the Film Editing category was introduced later.",200
+quentin_tarantino,130,118,Did Leonardo DiCaprio ever win an Oscar?,The context does not contain information about Leonardo DiCaprio winning an Oscar.,200
+akira_kurosawa,50,16,Did Natalie Portman won an oscar?,"Yes, Natalie Portman won an Oscar for ""Black Swan"" at the 2011 Academy Awards.",200
+stanley_kubrick,120,18,Which category has the most nominations?,The context does not contain enough information to determine which category has the most nominations.,200
+david_lynch,100,51,Which category has existed for more ceremonies: Directing or Film Editing?,"The category ""Directing"" has existed for more ceremonies. The ""Directing"" category was first introduced at the 1st Academy Awards in 1929, whereas the ""Film Editing"" category was introduced later and is not mentioned in the context provided, suggesting it was established after 1929.",200
+ari_aster,145,67,Who were the nominees for Best Actor in a Leading Role in 2022?,"The nominees for Best Actor in a Leading Role in 2022 were Javier Bardem for ""Being the Ricardos"" and Will Smith for ""King Richard.""",200
+martin_scorsese,60,43,Who were the nominees for Best Actor in a Leading Role in 2022?,"The nominees for Best Actor in a Leading Role in 2022 were Javier Bardem for ""Being the Ricardos"" and Will Smith for ""King Richard"".",200
+ricardo_darin,130,13,Was Citizen Kane ever nominated for Best Picture?,"Yes, ""Citizen Kane"" was nominated for Best Picture at the 1942 Academy Awards.",200
+agnes_varda,30,24,"Between 2010 and 2020, which film received the most Oscar wins?",The context does not contain enough information to determine which film received the most Oscar wins between 2010 and 2020.,200
+kathryn_bigelow,115,47,Which category has existed for more ceremonies: Directing or Film Editing?,"The category ""Directing"" has existed for more ceremonies. It was first introduced in the 1927/1928 Academy Awards (1st ceremony), while the category ""Film Editing"" was introduced later in the 1934 Academy Awards (7th ceremony).",200
+jane_campion,20,18,"How many Oscars did ""Oppenheimer"" win?","""Oppenheimer"" won 3 Oscars.",200
+sofia_coppola,40,6,"Between 2010 and 2020, which film received the most Oscar wins?",The context does not contain enough information to determine which film received the most Oscar wins between 2010 and 2020.,200
+greta_gerwig,30,7,Did Natalie Portman won an oscar?,"Yes, Natalie Portman won an Oscar for ""ACTRESS IN A LEADING ROLE"" at the 2011 Academy Awards for the film ""Black Swan"".",200
+chloe_zhao,150,87,Which film won Best Picture in the year 2000 ceremony?,"The film that won Best Picture in the year 2000 ceremony (73rd Academy Awards) was ""Gladiator"".",200
+lina_wertmüller,180,164,Which category has the most nominations?,The context does not contain enough information to determine which category has the most nominations.,200
+mira_nair,30,19,Did Leonardo DiCaprio ever win an Oscar?,The context does not contain enough information to answer that question.,200
+celine_sciamma,60,15,Who were the nominees for Best Actor in a Leading Role in 2022?,"The nominees for Best Actor in a Leading Role in 2022 were Javier Bardem for ""Being the Ricardos"" and Will Smith for ""King Richard"".",200
+sarah_polley,30,26,Who won Best Supporting Actor in 2012?,The context does not contain that information.,200
+steven_spielberg,20,13,Did Leonardo DiCaprio win before The Revenant?,"No, Leonardo DiCaprio did not win any Academy Awards before The Revenant.",200
+george_lucas,15,8,When was the first Oscar awarded for Best Animated Feature?,The context does not contain enough information to answer when the first Oscar was awarded for Best Animated Feature.,200
+francis_ford_coppola,20,16,"What are the Big Five movies? The Big Five movies are those that wins the top five primary categories: Best Picture, Best Director, Best Actor, Best Actress, and Best Screenplay (Original or Adapted).","The context does not provide information about any movies that have won the Big Five categories at the Academy Awards. Therefore, I cannot answer the question.",200
+quentin_tarantino,130,33,Which actor has more Oscar wins in the dataset: Tom Hanks or Daniel Day-Lewis?,"The context does not contain any information about Tom Hanks and his Oscar wins. Therefore, I cannot determine which actor has more Oscar wins based on the given dataset.",200
+akira_kurosawa,50,23,Who were the Best Director nominees at the 50th ceremony?,The context does not provide enough information to identify the Best Director nominees at the 50th Academy Awards.,200
+stanley_kubrick,120,58,Which person has the highest number of Oscar wins recorded in the dataset?,The context does not contain enough information to determine which person has the highest number of Oscar wins recorded in the dataset. All listed individuals have one win each.,200
+david_lynch,100,22,Which film won Best Original Song in 1997?,The context does not contain enough information to answer which film won Best Original Song in 1997.,200
+ari_aster,145,17,"Was ""Citizen Kane"" ever an Oscar winner?","Yes, ""Citizen Kane"" won an Oscar for ""WRITING (Original Screenplay)"" at the 1942 Academy Awards.",200
+martin_scorsese,60,30,Which films were nominated for Best International Feature Film in 2021?,"The context does not provide information about the nominations for Best International Feature Film in 2021, only mentioning Italy's nomination for ""The Hand of God"". Therefore, I cannot answer the question regarding which films were nominated in that year.",200
+ricardo_darin,130,74,Which Oscar categories has Steven Spielberg won?,"Steven Spielberg has won in the category ""IRVING G. THALBERG MEMORIAL AWARD"" and ""DIRECTING"" for the film ""Schindler's List"".",200
+agnes_varda,30,19,Who were the Best Director nominees at the 50th ceremony?,The context does not contain enough information to answer who the Best Director nominees were at the 50th ceremony.,200
+kathryn_bigelow,115,7,"Did Meryl Streep win an Oscar for ""The Iron Lady""?","Yes, Meryl Streep won an Oscar for ""The Iron Lady"".",200
+jane_campion,20,14,When was the first Oscar awarded for Best Animated Feature?,The context does not contain enough information to answer that question.,200
+sofia_coppola,40,31,"Between 2010 and 2020, which film received the most Oscar wins?",The context does not contain enough information to determine which film received the most Oscar wins between 2010 and 2020.,200
+greta_gerwig,30,14,Which films earned Oscars for Tom Hanks?,"The films that earned Oscars for Tom Hanks are ""Philadelphia"" and ""Forrest Gump"".",200
+chloe_zhao,150,61,Which actor has the most nominations in the dataset?,The context does not contain enough information to determine which actor has the most nominations.,200
+lina_wertmüller,180,34,Who won Best Picture in 1994?,"The Best Picture award in 1994 was won by Steven Spielberg, Gerald R. Molen, and Branko Lustig for the film ""Schindler's List.""",200
+mira_nair,30,26,Which decade had the most Best Picture winners represented?,The context does not contain enough information to determine which decade had the most Best Picture winners represented.,200
+celine_sciamma,60,49,Which person has the highest number of Oscar wins recorded in the dataset?,"The context does not provide enough information to determine which person has the highest number of Oscar wins recorded, as all mentioned individuals have won once.",200
+sarah_polley,30,6,For which films did Katharine Hepburn win Oscars?,"Katharine Hepburn won Oscars for the films ""Guess Who's Coming to Dinner"" and ""The Lion in Winter"".",200
+steven_spielberg,20,14,"Between 2010 and 2020, which film received the most Oscar wins?",The context does not contain enough information to determine which film received the most Oscar wins between 2010 and 2020.,200
+george_lucas,15,13,"Did Meryl Streep win an Oscar for ""The Iron Lady""?","Yes, Meryl Streep won an Oscar for ""The Iron Lady"".",200
+francis_ford_coppola,20,7,Which actor has the most nominations in the dataset?,"The context does not provide enough information to determine which actor has the most nominations in the dataset, as it only lists individual nominations without specifying if any actor is mentioned multiple times.",200
+quentin_tarantino,130,66,Which films earned Oscars for Tom Hanks?,"The films that earned Oscars for Tom Hanks are ""Philadelphia"" and ""Forrest Gump"".",200
+akira_kurosawa,50,43,How many Oscars did Walt Disney win?,Walt Disney won three Oscars.,200
+stanley_kubrick,120,16,Which decade had the most Best Picture winners represented?,The context does not contain enough information to determine which decade had the most Best Picture winners represented.,200
+david_lynch,100,57,How many Best Picture winners are in the dataset?,"There are two Best Picture winners in the dataset: ""Gone with the Wind"" from the 1940 Academy Awards and ""12 Years a Slave"" from the 2014 Academy Awards.",200
+ari_aster,145,9,Who won the first Oscar for Best Actor?,The context does not contain enough information to answer that question.,200
+martin_scorsese,60,31,Was Citizen Kane ever nominated for Best Picture?,"Yes, ""Citizen Kane"" was nominated for Best Picture at the 1942 Academy Awards (ceremony #14th, year 1941).",200
+ricardo_darin,130,127,"Was ""Citizen Kane"" ever an Oscar winner?","Yes, ""Citizen Kane"" won an Oscar for ""WRITING (Original Screenplay)"" at the 1942 Academy Awards.",200
+agnes_varda,30,30,Who won Best Picture in 1994?,"The film ""Schindler's List,"" produced by Steven Spielberg, Gerald R. Molen, and Branko Lustig, won Best Picture at the 1994 Academy Awards (ceremony #66th, year 1993).",200
+kathryn_bigelow,115,76,Which actor has more Oscar wins in the dataset: Tom Hanks or Daniel Day-Lewis?,"The context does not contain any information about Tom Hanks, so I cannot determine which actor has more Oscar wins based on the provided information.",200
+jane_campion,20,20,"Did ""La La Land"" win Best Picture?","No, ""La La Land"" did not win Best Picture.",200
+sofia_coppola,40,5,Who won Best Film Editing in 2023?,The context does not contain information about the winner of Best Film Editing in 2023.,200
+greta_gerwig,30,8,Who won the first Oscar for Best Actor?,The context does not contain enough information to determine who won the first Oscar for Best Actor.,200
+chloe_zhao,150,112,Which film won Best Picture in 2020?,The context does not provide information about the Best Picture winner for the 2020 Academy Awards.,200
+lina_wertmüller,180,49,"Did ""Titanic"" win Best Picture?","Yes, ""Titanic"" won Best Picture at the 1998 Academy Awards.",200
+mira_nair,30,24,Did Leonardo DiCaprio win before The Revenant?,"No, Leonardo DiCaprio did not win any Oscars before The Revenant.",200
+celine_sciamma,60,53,Did Leonardo DiCaprio win before The Revenant?,"No, Leonardo DiCaprio did not win any Academy Awards before ""The Revenant"".",200
+sarah_polley,30,29,"Was ""Parasite"" nominated for Best Picture?","Yes, ""Parasite"" was nominated for Best Picture at the 2020 Academy Awards (ceremony #92nd, year 2019).",200
+steven_spielberg,20,18,"Did ""Titanic"" win Best Picture?","Yes, ""Titanic"" won Best Picture at the 1998 Academy Awards.",200
+george_lucas,15,10,"Was ""Citizen Kane"" ever an Oscar winner?","Yes, ""Citizen Kane"" won an Oscar for ""WRITING (Original Screenplay)"" at the 1942 Academy Awards.",200
+francis_ford_coppola,20,8,Who won the Oscar for Directing in 2019?,"Bong Joon Ho won the Oscar for Directing in 2019 for the film ""Parasite.""",200
+quentin_tarantino,130,64,"How many Oscars did ""Oppenheimer"" win?","""Oppenheimer"" won 3 Oscars at the 2024 Academy Awards.",200
+akira_kurosawa,50,48,For which films did Katharine Hepburn win Oscars?,"Katharine Hepburn won Oscars for the films ""Guess Who's Coming to Dinner"" and ""The Lion in Winter.""",200
+stanley_kubrick,120,59,How many Oscars did Walt Disney win?,Walt Disney won a total of three Oscars.,200
+david_lynch,100,27,Did Leonardo di Caprio won an Oscar?,The context does not contain enough information to answer whether Leonardo DiCaprio won an Oscar.,200
+ari_aster,145,136,Which category has existed for more ceremonies: Directing or Film Editing?,"The Directing category has existed for more ceremonies. The Directing category was present at the 1948 Academy Awards (20th ceremony), while the Film Editing category was not present until the 73rd Academy Awards (2001).",200
+martin_scorsese,60,54,What films were nominated for Best Original Screenplay in 2019?,The context does not provide information about the films nominated for Best Original Screenplay in 2019.,200
+ricardo_darin,130,93,Which category has existed for more ceremonies: Directing or Film Editing?,"Based on the context, the Directing category has existed for more ceremonies than the Film Editing category. The Directing category has nominations listed from the 20th Academy Awards (1948) and onward, while Film Editing is mentioned from the 73rd Academy Awards (2001). Thus, Directing has been around longer.",200
+agnes_varda,30,21,How many films won more than one Oscar in 2014?,The context does not contain enough information to answer the question about how many films won more than one Oscar in 2014.,200
+kathryn_bigelow,115,51,"Which nominations did ""Avatar"" receive?","""Avatar"" received nominations in the following categories at the 2010 Academy Awards (82nd ceremony, year 2009):
+
+1. DIRECTING (James Cameron)
+2. FILM EDITING (Stephen Rivkin/John Refoua/James Cameron)
+3. BEST PICTURE (James Cameron/Jon Landau)
+4. VISUAL EFFECTS (Joe Letteri/Stephen Rosenbaum/Richard Baneham/Andrew R. Jones) - won the award.",200
+jane_campion,20,17,For which films did Katharine Hepburn win Oscars?,"Katharine Hepburn won Oscars for the films ""Guess Who's Coming to Dinner"" and ""The Lion in Winter"".",200
+sofia_coppola,40,9,How many nominations does Martin Scorsese have in the dataset?,Martin Scorsese has five nominations in the dataset.,200
+greta_gerwig,30,27,Which actor has the most nominations in the dataset?,"The dataset contains information on multiple actors, but none of them have more than one nomination mentioned. Therefore, the answer is that there is no actor with multiple nominations in the provided dataset.",200
+chloe_zhao,150,141,What are the movies on which Meryl Streep won an Oscar?,"Meryl Streep won an Oscar for the films ""Sophie's Choice"" and ""The Iron Lady.""",200
+lina_wertmüller,180,145,Did Natalie Portman won an oscar?,"Yes, Natalie Portman won an Oscar at the 2011 Academy Awards for her role in ""Black Swan.""",200
+mira_nair,30,23,Who won Best Supporting Actress in 2008?,The context does not contain information on who won the Best Supporting Actress in 2008.,200
+celine_sciamma,60,6,Who won the Oscar for Directing in 2019?,"Bong Joon Ho won the Oscar for Directing in 2019 for the film ""Parasite"".",200
+sarah_polley,30,16,For which films did Katharine Hepburn win Oscars?,"Katharine Hepburn won Oscars for the films ""Guess Who's Coming to Dinner"" and ""The Lion in Winter"".",200

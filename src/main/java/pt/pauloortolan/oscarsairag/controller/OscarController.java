@@ -26,6 +26,6 @@ public class OscarController {
             return ResponseEntity.badRequest().build();
         }
 
-        return ResponseEntity.ok(service.ask(what, username));
+        return ResponseEntity.ok(service.ask(username, what));
     }
 }

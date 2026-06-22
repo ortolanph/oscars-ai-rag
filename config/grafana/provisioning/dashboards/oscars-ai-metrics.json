@@ -458,7 +458,7 @@
       },
       "targets": [
         {
-          "expr": "sum by (username) (increase(spring_ai_tokens_session_total[5m]))",
+          "expr": "sum by (username) (increase(spring_ai_tokens_username_total[5m]))",
           "refId": "A",
           "legendFormat": "{{username}}"
         }
