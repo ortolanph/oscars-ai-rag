@@ -540,7 +540,7 @@ year_film,year_ceremony,ceremony,category,canon_category,name,film,winner
 1936,1937,9,WRITING (Screenplay),WRITING (Adapted Screenplay),Robert Riskin,Mr. Deeds Goes to Town,False
 1936,1937,9,WRITING (Screenplay),WRITING (Adapted Screenplay),Eric Hatch/Morris Ryskind,My Man Godfrey,False
 1936,1937,9,WRITING (Screenplay),WRITING (Adapted Screenplay),Pierre Collings/Sheridan Gibney,The Story of Louis Pasteur,True
-1936,1937,9,SPECIAL AWARD,SPECIAL AWARD,The March of Time for its significance to motion pictures and for having revolutionized one of the most important branches of the industry - the newsreel.,The March of Time,True
+1936,1937,9,SPECIAL AWARD,SPECIAL AWARD,,The March of Time,True
 1936,1937,9,SPECIAL AWARD,SPECIAL AWARD,W. Howard Greene/Harold Rosson,The Garden of Allah,True
 1937,1938,10,ACTOR,ACTOR IN A LEADING ROLE,Charles Boyer,Conquest,False
 1937,1938,10,ACTOR,ACTOR IN A LEADING ROLE,Fredric March,A Star Is Born,False
@@ -2046,6 +2046,7 @@ year_film,year_ceremony,ceremony,category,canon_category,name,film,winner
 1946,1947,19,MUSIC (Song),MUSIC (Original Song),James Monaco/Mack Gordon,The Dolly Sisters,False
 1946,1947,19,MUSIC (Song),MUSIC (Original Song),Hoagy Carmichael/Jack Brooks,Canyon Passage,False
 1946,1947,19,MUSIC (Song),MUSIC (Original Song),Harry Warren/Johnny Mercer,The Harvey Girls,True
+1946,1947,19,MUSIC (Song),MUSIC (Original Song),Harry Warren/Mack Gordon,Three Little Girls in Blue,False
 1946,1947,19,MUSIC (Song),MUSIC (Original Song),Irving Berlin,Blue Skies,False
 1946,1947,19,BEST MOTION PICTURE,BEST PICTURE,Samuel Goldwyn Productions,The Best Years of Our Lives,True
 1946,1947,19,BEST MOTION PICTURE,BEST PICTURE,J. Arthur Rank/Two Cities Films,Henry V,False
@@ -2193,8 +2194,8 @@ year_film,year_ceremony,ceremony,category,canon_category,name,film,winner
 1947,1948,20,WRITING (Screenplay),WRITING (Adapted Screenplay),David Lean/Anthony Havelock-Allan/Ronald Neame,Great Expectations,False
 1947,1948,20,WRITING (Screenplay),WRITING (Adapted Screenplay),George Seaton,Miracle on 34th Street,True
 1947,1948,20,SPECIAL AWARD,SPECIAL AWARD,James Baskett,Song of the South,True
-1947,1948,20,SPECIAL AWARD,SPECIAL AWARD,"Bill and Coo, in which artistry and patience blended in a novel and entertaining use of the medium of motion pictures.",Bill and Coo,True
-1947,1948,20,SPECIAL AWARD,SPECIAL AWARD,"Shoe-Shine - the high quality of this motion picture, brought to eloquent life in a country scarred by war, is proof to the world that the creative spirit can triumph over adversity.",Shoe-Shine,True
+1947,1948,20,SPECIAL AWARD,SPECIAL AWARD,,Bill and Coo,True
+1947,1948,20,SPECIAL AWARD,SPECIAL AWARD,,Shoe-Shine,True
 1947,1948,20,SPECIAL AWARD,SPECIAL AWARD,William N. Selig/Albert E. Smith/Thomas Armat/George K. Spoor,,True
 1948,1949,21,ACTOR,ACTOR IN A LEADING ROLE,Lew Ayres,Johnny Belinda,False
 1948,1949,21,ACTOR,ACTOR IN A LEADING ROLE,Montgomery Clift,The Search,False
@@ -2298,7 +2299,7 @@ year_film,year_ceremony,ceremony,category,canon_category,name,film,winner
 1948,1949,21,WRITING (Screenplay),WRITING (Adapted Screenplay),Richard Schweizer/David Wechsler,The Search,False
 1948,1949,21,WRITING (Screenplay),WRITING (Adapted Screenplay),Frank Partos/Millen Brand,The Snake Pit,False
 1948,1949,21,WRITING (Screenplay),WRITING (Adapted Screenplay),John Huston,The Treasure of the Sierra Madre,True
-1948,1949,21,SPECIAL FOREIGN LANGUAGE FILM AWARD,SPECIAL FOREIGN LANGUAGE FILM AWARD,Monsieur Vincent - voted by the Academy Board of Governors as the most outstanding foreign language film released in the United States during 1948.,Monsieur Vincent,True
+1948,1949,21,SPECIAL FOREIGN LANGUAGE FILM AWARD,SPECIAL FOREIGN LANGUAGE FILM AWARD,,Monsieur Vincent,True
 1948,1949,21,SPECIAL AWARD,SPECIAL AWARD,Ivan Jandl,The Search,True
 1948,1949,21,SPECIAL AWARD,SPECIAL AWARD,Sid Grauman,,True
 1948,1949,21,SPECIAL AWARD,SPECIAL AWARD,Adolph Zukor,,True
@@ -2412,7 +2413,7 @@ year_film,year_ceremony,ceremony,category,canon_category,name,film,winner
 1949,1950,22,WRITING (Story and Screenplay),WRITING (Original Screenplay),Alfred Hayes/Federico Fellini/Sergio Amidei/Marcello Pagliero/Roberto Rossellini,Paisan,False
 1949,1950,22,WRITING (Story and Screenplay),WRITING (Original Screenplay),T. E. B. Clarke,Passport to Pimlico,False
 1949,1950,22,WRITING (Story and Screenplay),WRITING (Original Screenplay),Helen Levitt/Janice Loeb/Sidney Meyers,The Quiet One,False
-1949,1950,22,SPECIAL FOREIGN LANGUAGE FILM AWARD,SPECIAL FOREIGN LANGUAGE FILM AWARD,The Bicycle Thief - voted by the Academy Board of Governors as the most outstanding foreign language film released in the United States during 1949.,The Bicycle Thief,True
+1949,1950,22,SPECIAL FOREIGN LANGUAGE FILM AWARD,SPECIAL FOREIGN LANGUAGE FILM AWARD,,The Bicycle Thief,True
 1949,1950,22,SPECIAL AWARD,SPECIAL AWARD,Bobby Driscoll,,True
 1949,1950,22,SPECIAL AWARD,SPECIAL AWARD,Fred Astaire,,True
 1949,1950,22,SPECIAL AWARD,SPECIAL AWARD,Cecil B. DeMille,,True
@@ -3222,11 +3223,11 @@ year_film,year_ceremony,ceremony,category,canon_category,name,film,winner
 1956,1957,29,FILM EDITING,FILM EDITING,William Hornbeck/Philip W. Anderson/Fred Bohanan,Giant,False
 1956,1957,29,FILM EDITING,FILM EDITING,Albert Akst,Somebody Up There Likes Me,False
 1956,1957,29,FILM EDITING,FILM EDITING,Anne Bauchens,The Ten Commandments,False
-1956,1957,29,FOREIGN LANGUAGE FILM,INTERNATIONAL FEATURE FILM,Gyula Trebitsch/Walter Koppel,The Captain of Kopenick,False
-1956,1957,29,FOREIGN LANGUAGE FILM,INTERNATIONAL FEATURE FILM,Annie Dorfmann,Gervaise,False
-1956,1957,29,FOREIGN LANGUAGE FILM,INTERNATIONAL FEATURE FILM,Masayuki Takagi,Harp of Burma,False
-1956,1957,29,FOREIGN LANGUAGE FILM,INTERNATIONAL FEATURE FILM,Dino De Laurentiis/Carlo Ponti,La Strada,True
-1956,1957,29,FOREIGN LANGUAGE FILM,INTERNATIONAL FEATURE FILM,O. Dalsgaard-Olsen,Qivitoq,False
+1956,1957,29,FOREIGN LANGUAGE FILM,INTERNATIONAL FEATURE FILM,Federal Republic of Germany - West/Gyula Trebitsch/Walter Koppel/The Captain of Kopenick,False
+1956,1957,29,FOREIGN LANGUAGE FILM,INTERNATIONAL FEATURE FILM,France/Annie Dorfmann/Gervaise,False
+1956,1957,29,FOREIGN LANGUAGE FILM,INTERNATIONAL FEATURE FILM,Japan/Masayuki Takagi/Harp of Burma,False
+1956,1957,29,FOREIGN LANGUAGE FILM,INTERNATIONAL FEATURE FILM,Italy/Dino De Laurentiis/Carlo Ponti/La Strada,True
+1956,1957,29,FOREIGN LANGUAGE FILM,INTERNATIONAL FEATURE FILM,Denmark/O. Dalsgaard-Olsen/Qivitoq,False
 1956,1957,29,MUSIC (Music Score of a Dramatic or Comedy Picture),MUSIC (Original Score),Alfred Newman,Anastasia,False
 1956,1957,29,MUSIC (Music Score of a Dramatic or Comedy Picture),MUSIC (Original Score),Victor Young,Around the World in 80 Days,True
 1956,1957,29,MUSIC (Music Score of a Dramatic or Comedy Picture),MUSIC (Original Score),Hugo Friedhofer,Between Heaven and Hell,False
@@ -3381,7 +3382,7 @@ year_film,year_ceremony,ceremony,category,canon_category,name,film,winner
 1957,1958,30,HONORARY AWARD,HONORARY AWARD,Charles Brackett,,True
 1957,1958,30,HONORARY AWARD,HONORARY AWARD,B.B. Kahane,,True
 1957,1958,30,HONORARY AWARD,HONORARY AWARD,"Gilbert M. (""Broncho Billy"") Anderson",,True
-1957,1958,30,HONORARY AWARD,HONORARY AWARD,Society of Motion Picture and Television Engineers,,True
+1957,1958,30,HONORARY AWARD,HONORARY AWARD,The Society of Motion Picture and Television Engineers,,True
 1958,1959,31,ACTOR,ACTOR IN A LEADING ROLE,Tony Curtis,The Defiant Ones,False
 1958,1959,31,ACTOR,ACTOR IN A LEADING ROLE,Paul Newman,Cat on a Hot Tin Roof,False
 1958,1959,31,ACTOR,ACTOR IN A LEADING ROLE,David Niven,Separate Tables,True
@@ -5493,11 +5494,11 @@ year_film,year_ceremony,ceremony,category,canon_category,name,film,winner
 1976,1977,49,MUSIC (Original Song Score and Its Adaptation or Adaptation Score),MUSIC (Original Song Score or Adaptation Score),Leonard Rosenman,Bound for Glory,True
 1976,1977,49,MUSIC (Original Song Score and Its Adaptation or Adaptation Score),MUSIC (Original Song Score or Adaptation Score),Paul Williams,Bugsy Malone,False
 1976,1977,49,MUSIC (Original Song Score and Its Adaptation or Adaptation Score),MUSIC (Original Song Score or Adaptation Score),Roger Kellaway,A Star Is Born,False
-1976,1977,49,MUSIC (Original Song),MUSIC (Original Song),Sammy Fain/Paul Francis Webster,Half a House,False
 1976,1977,49,MUSIC (Original Song),MUSIC (Original Song),Jerry Goldsmith,The Omen,False
 1976,1977,49,MUSIC (Original Song),MUSIC (Original Song),Henry Mancini/Don Black,The Pink Panther Strikes Again,False
 1976,1977,49,MUSIC (Original Song),MUSIC (Original Song),Barbra Streisand/Paul Williams,A Star Is Born,True
 1976,1977,49,MUSIC (Original Song),MUSIC (Original Song),Bill Conti/Carol Connors/Ayn Robbins,Rocky,False
+1976,1977,49,MUSIC (Original Song),MUSIC (Original Song),Sammy Fain/Paul Francis Webster,Half a House,False
 1976,1977,49,BEST PICTURE,BEST PICTURE,Walter Coblenz,All the President's Men,False
 1976,1977,49,BEST PICTURE,BEST PICTURE,Robert F. Blumofe/Harold Leventhal,Bound for Glory,False
 1976,1977,49,BEST PICTURE,BEST PICTURE,Howard Gottfried,Network,False
@@ -6818,7 +6819,7 @@ year_film,year_ceremony,ceremony,category,canon_category,name,film,winner
 1988,1989,61,WRITING (Screenplay Written Directly for the Screen),WRITING (Original Screenplay),Ronald Bass/Barry Morrow,Rain Man,True
 1988,1989,61,WRITING (Screenplay Written Directly for the Screen),WRITING (Original Screenplay),Naomi Foner,Running on Empty,False
 1988,1989,61,SPECIAL ACHIEVEMENT AWARD,SPECIAL ACHIEVEMENT AWARD,Richard Williams,Who Framed Roger Rabbit,True
-1988,1989,61,HONORARY AWARD,HONORARY AWARD,the National Film Board of Canada,,True
+1988,1989,61,HONORARY AWARD,HONORARY AWARD,The National Film Board of Canada,,True
 1988,1989,61,HONORARY AWARD,HONORARY AWARD,Eastman Kodak Company,,True
 1988,1989,61,GORDON E. SAWYER AWARD,GORDON E. SAWYER AWARD,Gordon Henry Cook,,True
 1989,1990,62,ACTOR IN A LEADING ROLE,ACTOR IN A LEADING ROLE,Kenneth Branagh,Henry V,False
@@ -6927,7 +6928,7 @@ year_film,year_ceremony,ceremony,category,canon_category,name,film,winner
 1989,1990,62,JEAN HERSHOLT HUMANITARIAN AWARD,JEAN HERSHOLT HUMANITARIAN AWARD,Howard W. Koch,,True
 1989,1990,62,HONORARY AWARD,HONORARY AWARD,Akira Kurosawa,,True
 1989,1990,62,GORDON E. SAWYER AWARD,GORDON E. SAWYER AWARD,Pierre Angenieux,,True
-1989,1990,62,AWARD OF COMMENDATION,AWARD OF COMMENDATION,Society of Motion Picture and Television Engineers,,True
+1989,1990,62,AWARD OF COMMENDATION,AWARD OF COMMENDATION,The Society of Motion Picture and Television Engineers,,True
 1990,1991,63,ACTOR IN A LEADING ROLE,ACTOR IN A LEADING ROLE,Kevin Costner,Dances With Wolves,False
 1990,1991,63,ACTOR IN A LEADING ROLE,ACTOR IN A LEADING ROLE,Robert De Niro,Awakenings,False
 1990,1991,63,ACTOR IN A LEADING ROLE,ACTOR IN A LEADING ROLE,Gerard Depardieu,Cyrano de Bergerac,False
@@ -8296,7 +8297,7 @@ year_film,year_ceremony,ceremony,category,canon_category,name,film,winner
 2001,2002,74,HONORARY AWARD,HONORARY AWARD,Robert Redford,,True
 2001,2002,74,GORDON E. SAWYER AWARD,GORDON E. SAWYER AWARD,Edmund M. Di Giulio,,True
 2001,2002,74,AWARD OF COMMENDATION,AWARD OF COMMENDATION,Rune Ericson,,True
-2001,2002,74,AWARD OF COMMENDATION,AWARD OF COMMENDATION,the American Society of Cinematographers,,True
+2001,2002,74,AWARD OF COMMENDATION,AWARD OF COMMENDATION,The American Society of Cinematographers,,True
 2001,2002,74,JOHN A. BONNER MEDAL OF COMMENDATION,JOHN A. BONNER MEDAL OF COMMENDATION,Ray Feeney,,True
 2002,2003,75,ACTOR IN A LEADING ROLE,ACTOR IN A LEADING ROLE,Adrien Brody,The Pianist,True
 2002,2003,75,ACTOR IN A LEADING ROLE,ACTOR IN A LEADING ROLE,Nicolas Cage,Adaptation,False
@@ -8500,7 +8501,7 @@ year_film,year_ceremony,ceremony,category,canon_category,name,film,winner
 2003,2004,76,SHORT FILM (Live Action),SHORT FILM (Live Action),Florian Baxmeyer,Die Rote Jacke (The Red Jacket),False
 2003,2004,76,SHORT FILM (Live Action),SHORT FILM (Live Action),Bobby Garabedian/William Zabka,Most (The Bridge),False
 2003,2004,76,SHORT FILM (Live Action),SHORT FILM (Live Action),Lionel Bailliu,Squash,False
-2003,2004,76,SHORT FILM (Live Action),SHORT FILM (Live Action),Stefan Arsenijevi¿,(A) Torzija [(A) Torsion],False
+2003,2004,76,SHORT FILM (Live Action),SHORT FILM (Live Action),Stefan Arsenijevic,(A) Torzija [(A) Torsion],False
 2003,2004,76,SHORT FILM (Live Action),SHORT FILM (Live Action),Aaron Schneider/Andrew J. Sacks,Two Soldiers,True
 2003,2004,76,SOUND EDITING,SOUND EDITING,Gary Rydstrom/Michael Silvers,Finding Nemo,False
 2003,2004,76,SOUND EDITING,SOUND EDITING,Richard King,Master and Commander: The Far Side of the World,True
@@ -11109,3 +11110,132 @@ year_film,year_ceremony,ceremony,category,canon_category,name,film,winner
 2024,2025,97,HONORARY AWARD,HONORARY AWARD,Quincy Jones,,True
 2024,2025,97,HONORARY AWARD,HONORARY AWARD,Juliet Taylor,,True
 2024,2025,97,IRVING G. THALBERG MEMORIAL AWARD,IRVING G. THALBERG MEMORIAL AWARD,Michael G. Wilson/Barbara Broccoli,,True
+2025,2026,98,ACTOR IN A LEADING ROLE,ACTOR IN A LEADING ROLE,Timothée Chalamet,Marty Supreme,False
+2025,2026,98,ACTOR IN A LEADING ROLE,ACTOR IN A LEADING ROLE,Leonardo DiCaprio,One Battle after Another,False
+2025,2026,98,ACTOR IN A LEADING ROLE,ACTOR IN A LEADING ROLE,Ethan Hawke,Blue Moon,False
+2025,2026,98,ACTOR IN A LEADING ROLE,ACTOR IN A LEADING ROLE,Michael B. Jordan,Sinners,True
+2025,2026,98,ACTOR IN A LEADING ROLE,ACTOR IN A LEADING ROLE,Wagner Moura,The Secret Agent,False
+2025,2026,98,ACTOR IN A SUPPORTING ROLE,ACTOR IN A SUPPORTING ROLE,Benicio Del Toro,One Battle after Another,False
+2025,2026,98,ACTOR IN A SUPPORTING ROLE,ACTOR IN A SUPPORTING ROLE,Jacob Elordi,Frankenstein,False
+2025,2026,98,ACTOR IN A SUPPORTING ROLE,ACTOR IN A SUPPORTING ROLE,Delroy Lindo,Sinners,False
+2025,2026,98,ACTOR IN A SUPPORTING ROLE,ACTOR IN A SUPPORTING ROLE,Sean Penn,One Battle after Another,True
+2025,2026,98,ACTOR IN A SUPPORTING ROLE,ACTOR IN A SUPPORTING ROLE,Stellan Skarsgård,Sentimental Value,False
+2025,2026,98,ACTRESS IN A LEADING ROLE,ACTRESS IN A LEADING ROLE,Jessie Buckley,Hamnet,True
+2025,2026,98,ACTRESS IN A LEADING ROLE,ACTRESS IN A LEADING ROLE,Rose Byrne,If I Had Legs I'd Kick You,False
+2025,2026,98,ACTRESS IN A LEADING ROLE,ACTRESS IN A LEADING ROLE,Kate Hudson,Song Sung Blue,False
+2025,2026,98,ACTRESS IN A LEADING ROLE,ACTRESS IN A LEADING ROLE,Renate Reinsve,Sentimental Value,False
+2025,2026,98,ACTRESS IN A LEADING ROLE,ACTRESS IN A LEADING ROLE,Emma Stone,Bugonia,False
+2025,2026,98,ACTRESS IN A SUPPORTING ROLE,ACTRESS IN A SUPPORTING ROLE,Elle Fanning,Sentimental Value,False
+2025,2026,98,ACTRESS IN A SUPPORTING ROLE,ACTRESS IN A SUPPORTING ROLE,Inga Ibsdotter Lilleaas,Sentimental Value,False
+2025,2026,98,ACTRESS IN A SUPPORTING ROLE,ACTRESS IN A SUPPORTING ROLE,Amy Madigan,Weapons,True
+2025,2026,98,ACTRESS IN A SUPPORTING ROLE,ACTRESS IN A SUPPORTING ROLE,Wunmi Mosaku,Sinners,False
+2025,2026,98,ACTRESS IN A SUPPORTING ROLE,ACTRESS IN A SUPPORTING ROLE,Teyana Taylor,One Battle after Another,False
+2025,2026,98,ANIMATED FEATURE FILM,ANIMATED FEATURE FILM,Ugo Bienvenu/Félix de Givry/Sophie Mas/Natalie Portman,Arco,False
+2025,2026,98,ANIMATED FEATURE FILM,ANIMATED FEATURE FILM,Madeline Sharafian/Domee Shi/Adrian Molina/Mary Alice Drumm,Elio,False
+2025,2026,98,ANIMATED FEATURE FILM,ANIMATED FEATURE FILM,Maggie Kang/Chris Appelhans/Michelle L.M. Wong,KPop Demon Hunters,True
+2025,2026,98,ANIMATED FEATURE FILM,ANIMATED FEATURE FILM,Maïlys Vallade/Liane-Cho Han/Nidia Santiago/Henri Magalon,Little Amélie or the Character of Rain,False
+2025,2026,98,ANIMATED FEATURE FILM,ANIMATED FEATURE FILM,Jared Bush/Byron Howard/Yvett Merino,Zootopia 2,False
+2025,2026,98,ANIMATED SHORT FILM,SHORT FILM (Animated),Florence Miailhe/Ron Dyens,Butterfly,False
+2025,2026,98,ANIMATED SHORT FILM,SHORT FILM (Animated),Nathan Engelhardt/Jeremy Spears,Forevergreen,False
+2025,2026,98,ANIMATED SHORT FILM,SHORT FILM (Animated),Chris Lavis/Maciek Szczerbowski,The Girl Who Cried Pearls,True
+2025,2026,98,ANIMATED SHORT FILM,SHORT FILM (Animated),John Kelly/Andrew Freedman,Retirement Plan,False
+2025,2026,98,ANIMATED SHORT FILM,SHORT FILM (Animated),Konstantin Bronzit,The Three Sisters,False
+2025,2026,98,CASTING,CASTING,Nina Gold,Hamnet,False
+2025,2026,98,CASTING,CASTING,Jennifer Venditti,Marty Supreme,False
+2025,2026,98,CASTING,CASTING,Cassandra Kulukundis,One Battle after Another,True
+2025,2026,98,CASTING,CASTING,Gabriel Domingues,The Secret Agent,False
+2025,2026,98,CASTING,CASTING,Francine Maisler,Sinners,False
+2025,2026,98,CINEMATOGRAPHY,CINEMATOGRAPHY,Dan Laustsen,Frankenstein,False
+2025,2026,98,CINEMATOGRAPHY,CINEMATOGRAPHY,Darius Khondji,Marty Supreme,False
+2025,2026,98,CINEMATOGRAPHY,CINEMATOGRAPHY,Michael Bauman,One Battle after Another,False
+2025,2026,98,CINEMATOGRAPHY,CINEMATOGRAPHY,Autumn Durald Arkapaw,Sinners,True
+2025,2026,98,CINEMATOGRAPHY,CINEMATOGRAPHY,Adolpho Veloso,Train Dreams,False
+2025,2026,98,COSTUME DESIGN,COSTUME DESIGN,Deborah L. Scott,Avatar: Fire and Ash,False
+2025,2026,98,COSTUME DESIGN,COSTUME DESIGN,Kate Hawley,Frankenstein,True
+2025,2026,98,COSTUME DESIGN,COSTUME DESIGN,Malgosia Turzanska,Hamnet,False
+2025,2026,98,COSTUME DESIGN,COSTUME DESIGN,Miyako Bellizzi,Marty Supreme,False
+2025,2026,98,COSTUME DESIGN,COSTUME DESIGN,Ruth E. Carter,Sinners,False
+2025,2026,98,DIRECTING,DIRECTING,Chloé Zhao,Hamnet,False
+2025,2026,98,DIRECTING,DIRECTING,Josh Safdie,Marty Supreme,False
+2025,2026,98,DIRECTING,DIRECTING,Paul Thomas Anderson,One Battle after Another,True
+2025,2026,98,DIRECTING,DIRECTING,Joachim Trier,Sentimental Value,False
+2025,2026,98,DIRECTING,DIRECTING,Ryan Coogler,Sinners,False
+2025,2026,98,DOCUMENTARY FEATURE FILM,DOCUMENTARY (Feature),Andrew Jarecki/Charlotte Kaufman,The Alabama Solution,False
+2025,2026,98,DOCUMENTARY FEATURE FILM,DOCUMENTARY (Feature),Ryan White/Jessica Hargrave/Tig Notaro/Stef Willen,Come See Me in the Good Light,False
+2025,2026,98,DOCUMENTARY FEATURE FILM,DOCUMENTARY (Feature),Sara Khaki/Mohammadreza Eyni,Cutting through Rocks,False
+2025,2026,98,DOCUMENTARY FEATURE FILM,DOCUMENTARY (Feature),David Borenstein/Pavel Talankin/Helle Faber/Alžběta Karásková,Mr. Nobody against Putin,True
+2025,2026,98,DOCUMENTARY FEATURE FILM,DOCUMENTARY (Feature),Geeta Gandbhir/Alisa Payne/Nikon Kwantu/Sam Bisbee,The Perfect Neighbor,False
+2025,2026,98,DOCUMENTARY SHORT FILM,DOCUMENTARY (Short Subject),Joshua Seftel/Conall Jones,All the Empty Rooms,True
+2025,2026,98,DOCUMENTARY SHORT FILM,DOCUMENTARY (Short Subject),Craig Renaud/Juan Arredondo,Armed Only with a Camera: The Life and Death of Brent Renaud,False
+2025,2026,98,DOCUMENTARY SHORT FILM,DOCUMENTARY (Short Subject),Hilla Medalia/Sheila Nevins,"Children No More: ""Were and Are Gone""",False
+2025,2026,98,DOCUMENTARY SHORT FILM,DOCUMENTARY (Short Subject),Christalyn Hampton/Geeta Gandbhir,The Devil Is Busy,False
+2025,2026,98,DOCUMENTARY SHORT FILM,DOCUMENTARY (Short Subject),Alison McAlpine,Perfectly a Strangeness,False
+2025,2026,98,FILM EDITING,FILM EDITING,Stephen Mirrione,F1,False
+2025,2026,98,FILM EDITING,FILM EDITING,Ronald Bronstein/Josh Safdie,Marty Supreme,False
+2025,2026,98,FILM EDITING,FILM EDITING,Andy Jurgensen,One Battle after Another,True
+2025,2026,98,FILM EDITING,FILM EDITING,Olivier Bugge Coutté,Sentimental Value,False
+2025,2026,98,FILM EDITING,FILM EDITING,Michael P. Shawver,Sinners,False
+2025,2026,98,INTERNATIONAL FEATURE FILM,INTERNATIONAL FEATURE FILM,Brazil,The Secret Agent,False
+2025,2026,98,INTERNATIONAL FEATURE FILM,INTERNATIONAL FEATURE FILM,France,It Was Just an Accident,False
+2025,2026,98,INTERNATIONAL FEATURE FILM,INTERNATIONAL FEATURE FILM,Norway,Sentimental Value,True
+2025,2026,98,INTERNATIONAL FEATURE FILM,INTERNATIONAL FEATURE FILM,Spain,Sirāt,False
+2025,2026,98,INTERNATIONAL FEATURE FILM,INTERNATIONAL FEATURE FILM,Tunisia,The Voice of Hind Rajab,False
+2025,2026,98,LIVE ACTION SHORT FILM,SHORT FILM (Live Action),Meyer Levinson-Blount/Oron Caspi,Butcher's Stain,False
+2025,2026,98,LIVE ACTION SHORT FILM,SHORT FILM (Live Action),Lee Knight/James Dean,A Friend of Dorothy,False
+2025,2026,98,LIVE ACTION SHORT FILM,SHORT FILM (Live Action),Julia Aks/Steve Pinder,Jane Austen's Period Drama,False
+2025,2026,98,LIVE ACTION SHORT FILM,SHORT FILM (Live Action),Sam A. Davis/Jack Piatt,The Singers,True
+2025,2026,98,LIVE ACTION SHORT FILM,SHORT FILM (Live Action),Alexandre Singh/Natalie Musteata,Two People Exchanging Saliva,True
+2025,2026,98,MAKEUP AND HAIRSTYLING,MAKEUP AND HAIRSTYLING,Mike Hill/Jordan Samuel/Cliona Furey,Frankenstein,True
+2025,2026,98,MAKEUP AND HAIRSTYLING,MAKEUP AND HAIRSTYLING,Kyoko Toyokawa/Naomi Hibino/Tadashi Nishimatsu,Kokuho,False
+2025,2026,98,MAKEUP AND HAIRSTYLING,MAKEUP AND HAIRSTYLING,Ken Diaz/Mike Fontaine/Shunika Terry,Sinners,False
+2025,2026,98,MAKEUP AND HAIRSTYLING,MAKEUP AND HAIRSTYLING,Kazu Hiro/Glen Griffin/Bjoern Rehbein,The Smashing Machine,False
+2025,2026,98,MAKEUP AND HAIRSTYLING,MAKEUP AND HAIRSTYLING,Thomas Foldberg/Anne Cathrine Sauerberg,The Ugly Stepsister,False
+2025,2026,98,MUSIC (Original Score),MUSIC (Original Score),Jerskin Fendrix,Bugonia,False
+2025,2026,98,MUSIC (Original Score),MUSIC (Original Score),Alexandre Desplat,Frankenstein,False
+2025,2026,98,MUSIC (Original Score),MUSIC (Original Score),Max Richter,Hamnet,False
+2025,2026,98,MUSIC (Original Score),MUSIC (Original Score),Jonny Greenwood,One Battle after Another,False
+2025,2026,98,MUSIC (Original Score),MUSIC (Original Score),Ludwig Goransson,Sinners,True
+2025,2026,98,MUSIC (Original Song),MUSIC (Original Song),Diane Warren,Diane Warren: Relentless,False
+2025,2026,98,MUSIC (Original Song),MUSIC (Original Song),EJAE/Mark Sonnenblick/Joong Gyu Kwak/Yu Han Lee/Hee Dong Nam/Jeong Hoon Seo/Teddy Park,KPop Demon Hunters,True
+2025,2026,98,MUSIC (Original Song),MUSIC (Original Song),Raphael Saadiq/Ludwig Goransson,Sinners,False
+2025,2026,98,MUSIC (Original Song),MUSIC (Original Song),Nicholas Pike,Viva Verdi!,False
+2025,2026,98,MUSIC (Original Song),MUSIC (Original Song),Nick Cave/Bryce Dessner,Train Dreams,False
+2025,2026,98,BEST PICTURE,BEST PICTURE,Ed Guiney/Andrew Lowe/Yorgos Lanthimos/Emma Stone/Lars Knudsen,Bugonia,False
+2025,2026,98,BEST PICTURE,BEST PICTURE,Chad Oman/Brad Pitt/Dede Gardner/Jeremy Kleiner/Joseph Kosinski/Jerry Bruckheimer,F1,False
+2025,2026,98,BEST PICTURE,BEST PICTURE,Guillermo del Toro/J. Miles Dale/Scott Stuber,Frankenstein,False
+2025,2026,98,BEST PICTURE,BEST PICTURE,Liza Marshall/Pippa Harris/Nicolas Gonda/Steven Spielberg/Sam Mendes,Hamnet,False
+2025,2026,98,BEST PICTURE,BEST PICTURE,Eli Bush/Ronald Bronstein/Josh Safdie/Anthony Katagas/Timothée Chalamet,Marty Supreme,False
+2025,2026,98,BEST PICTURE,BEST PICTURE,Adam Somner/Sara Murphy/Paul Thomas Anderson,One Battle after Another,True
+2025,2026,98,BEST PICTURE,BEST PICTURE,Emilie Lesclaux,The Secret Agent,False
+2025,2026,98,BEST PICTURE,BEST PICTURE,Maria Ekerhovd/Andrea Berentsen Ottmar,Sentimental Value,False
+2025,2026,98,BEST PICTURE,BEST PICTURE,Zinzi Coogler/Sev Ohanian/Ryan Coogler,Sinners,False
+2025,2026,98,BEST PICTURE,BEST PICTURE,Marissa McMahon/Teddy Schwarzman/Will Janowitz/Ashley Schlaifer/Michael Heimler,Train Dreams,False
+2025,2026,98,PRODUCTION DESIGN,ART DIRECTION,Tamara Deverell/Shane Vieau,Frankenstein,True
+2025,2026,98,PRODUCTION DESIGN,ART DIRECTION,Fiona Crombie/Alice Felton,Hamnet,False
+2025,2026,98,PRODUCTION DESIGN,ART DIRECTION,Jack Fisk/Adam Willis,Marty Supreme,False
+2025,2026,98,PRODUCTION DESIGN,ART DIRECTION,Florencia Martin/Anthony Carlino,One Battle after Another,False
+2025,2026,98,PRODUCTION DESIGN,ART DIRECTION,Hannah Beachler/Monique Champagne,Sinners,False
+2025,2026,98,SOUND,SOUND MIXING,Gareth John/Al Nelson/Gwendolyn Yates Whittle/Gary A. Rizzo/Juan Peralta,F1,True
+2025,2026,98,SOUND,SOUND MIXING,Greg Chapman/Nathan Robitaille/Nelson Ferreira/Christian Cooke/Brad Zoern,Frankenstein,False
+2025,2026,98,SOUND,SOUND MIXING,José Antonio García/Christopher Scarabosio/Tony Villaflor,One Battle after Another,False
+2025,2026,98,SOUND,SOUND MIXING,Chris Welcker/Benjamin A. Burtt/Felipe Pacheco/Brandon Proctor/Steve Boeddeker,Sinners,False
+2025,2026,98,SOUND,SOUND MIXING,Amanda Villavieja/Laia Casanovas/Yasmina Praderas,Sirāt,False
+2025,2026,98,VISUAL EFFECTS,VISUAL EFFECTS,Joe Letteri/Richard Baneham/Eric Saindon/Daniel Barrett,Avatar: Fire and Ash,True
+2025,2026,98,VISUAL EFFECTS,VISUAL EFFECTS,Ryan Tudhope/Nicolas Chevallier/Robert Harrington/Keith Dawson,F1,False
+2025,2026,98,VISUAL EFFECTS,VISUAL EFFECTS,David Vickery/Stephen Aplin/Charmaine Chan/Neil Corbould,Jurassic World Rebirth,False
+2025,2026,98,VISUAL EFFECTS,VISUAL EFFECTS,Charlie Noble/David Zaretti/Russell Bowen/Brandon K. McLaughlin,The Lost Bus,False
+2025,2026,98,VISUAL EFFECTS,VISUAL EFFECTS,Michael Ralla/Espen Nordahl/Guido Wolter/Donnie Dean,Sinners,False
+2025,2026,98,WRITING (Adapted Screenplay),WRITING (Adapted Screenplay),Will Tracy,Bugonia,False
+2025,2026,98,WRITING (Adapted Screenplay),WRITING (Adapted Screenplay),Guillermo del Toro,Frankenstein,False
+2025,2026,98,WRITING (Adapted Screenplay),WRITING (Adapted Screenplay),Chloé Zhao/Maggie O'Farrell,Hamnet,False
+2025,2026,98,WRITING (Adapted Screenplay),WRITING (Adapted Screenplay),Paul Thomas Anderson,One Battle after Another,True
+2025,2026,98,WRITING (Adapted Screenplay),WRITING (Adapted Screenplay),Clint Bentley/Greg Kwedar,Train Dreams,False
+2025,2026,98,WRITING (Original Screenplay),WRITING (Original Screenplay),Robert Kaplow,Blue Moon,False
+2025,2026,98,WRITING (Original Screenplay),WRITING (Original Screenplay),Jafar Panahi/Nader Saïvar/Shadmehr Rastin/Mehdi Mahmoudian,It Was Just an Accident,False
+2025,2026,98,WRITING (Original Screenplay),WRITING (Original Screenplay),Ronald Bronstein/Josh Safdie,Marty Supreme,False
+2025,2026,98,WRITING (Original Screenplay),WRITING (Original Screenplay),Eskil Vogt/Joachim Trier,Sentimental Value,False
+2025,2026,98,WRITING (Original Screenplay),WRITING (Original Screenplay),Ryan Coogler,Sinners,True
+2025,2026,98,JEAN HERSHOLT HUMANITARIAN AWARD,JEAN HERSHOLT HUMANITARIAN AWARD,Dolly Parton,,True
+2025,2026,98,HONORARY AWARD,HONORARY AWARD,Debbie Allen,,True
+2025,2026,98,HONORARY AWARD,HONORARY AWARD,Tom Cruise,,True
+2025,2026,98,HONORARY AWARD,HONORARY AWARD,Wynn Thomas,,True

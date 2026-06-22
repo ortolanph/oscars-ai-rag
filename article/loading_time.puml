@@ -1,0 +1,12 @@
+@startuml
+!theme mimeograph
+autonumber
+
+== Initialization ==
+
+Spring -> ConfigurationProcessor: Load configuration
+ConfigurationProcessor -> DataIngestor: Ingest data
+DataIngestor -> ConfigurationProcessor: data ingested
+ConfigurationProcessor -> Spring: process other configurations
+
+@enduml

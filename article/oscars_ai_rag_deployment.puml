@@ -1,0 +1,18 @@
+@startuml
+!theme mimeograph
+left to right direction
+
+component oscar_ai_rag
+
+component redis_commander {
+    component redis
+}
+
+component grafana
+component prometheus
+
+oscar_ai_rag <-> redis
+oscar_ai_rag -> prometheus
+prometheus -> grafana
+
+@enduml
