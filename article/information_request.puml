@@ -1,0 +1,15 @@
+@startuml
+
+autonumber
+
+User -> OscarController: GET /oscars//tellme/{username}?what={prompt}
+OscarController -> OscarRagService: ask(username, prompt)
+OscarRagService -> VectorStore: similaritySearch
+VectorStore -> OscarRagService: List<Document> documents
+OscarRagService -> ChatClient: augmented prompt = prompt + documents
+ChatClient -> OscarRagService: response
+OscarRagService -> MetricsRecorder: response
+OscarRagService -> OscarController: response text
+OscarController -> User: the prompt answer
+
+@enduml

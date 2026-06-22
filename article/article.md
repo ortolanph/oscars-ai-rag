@@ -63,7 +63,9 @@ from [Kaggle The Oscar Award, 1927 - 2026 dataset](https://www.kaggle.com/datase
 an online community for data science and machine learning. It's a Google subsidiary which serves as a central hub where
 practitioners and enthusiasts can collaborate, share resources, and test their skills.
 
-There are 11240 lines of data with all the Oscars information.
+There are 11240 lines of data with all the Oscars information. This data is structured as a CSV file, so it'll be easy
+to ingest with the right framework. It could be a document file (PDF) with styles to separate ceremonies, and the
+categories.
 
 ## How it works
 
