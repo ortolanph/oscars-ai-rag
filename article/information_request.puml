@@ -1,5 +1,5 @@
 @startuml
-
+!theme mimeograph
 autonumber
 
 User -> OscarController: GET /oscars//tellme/{username}?what={prompt}

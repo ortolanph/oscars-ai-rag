@@ -1,5 +1,5 @@
 @startuml
-!theme mars
+!theme mimeograph
 left to right direction
 
 component oscar_ai_rag
