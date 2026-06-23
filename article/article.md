@@ -69,6 +69,8 @@ categories.
 
 ## How it works
 
+First things first. 
+
 ## Monitoring
 
 ## Some thoughts
