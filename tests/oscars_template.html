@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academy Awards</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 14px;
+      color: #1a1a1a;
+      background: #fff;
+      padding: 2rem;
+    }
+
+    .edition {
+      max-width: 760px;
+      margin: 0 auto 4rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid #c8a84b;
+    }
+
+    .edition-header {
+      border-left: 5px solid #c8a84b;
+      padding-left: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .edition-header h2 {
+      font-size: 1.6rem;
+      font-weight: bold;
+      letter-spacing: 0.02em;
+      color: #1a1a1a;
+    }
+
+    .edition-header span {
+      font-size: 0.9rem;
+      color: #666;
+      font-style: italic;
+    }
+
+    .category {
+      margin-bottom: 1.5rem;
+    }
+
+    .category h3 {
+      font-size: 0.75rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #888;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 0.3rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .nominees {
+      list-style: none;
+      padding: 0;
+    }
+
+    .nominees li {
+      padding: 0.2rem 0;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #444;
+    }
+
+    .nominees li.winner {
+      color: #1a1a1a;
+      font-weight: bold;
+    }
+
+    .nominees li.winner::before {
+      content: "★ ";
+      color: #c8a84b;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        padding: 0;
+        font-size: 11pt;
+      }
+
+      .edition {
+        page-break-after: always;
+        break-after: page;
+        margin: 0;
+        padding: 2cm;
+        max-width: 100%;
+        border-bottom: none;
+      }
+
+      .edition:last-child {
+        page-break-after: avoid;
+        break-after: avoid;
+      }
+
+      .edition-header {
+        margin-bottom: 1.5cm;
+      }
+
+      .category {
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+
+{% for oscar in oscars %}
+<div class="edition">
+
+  <div class="edition-header">
+    <h2>{{ oscar.ceremony }} Academy Awards</h2>
+    <span>{{ oscar.year_ceremony }} Ceremony</span>
+  </div>
+
+  {% for category in oscar.categories %}
+  <div class="category">
+    <h3>{{ category.category }}</h3>
+    <ul class="nominees">
+      {% for nominee in category.nominees %}
+      <li{% if nominee.winner == "True" %} class="winner"{% endif %}>
+        {{ nominee.name }} — <em>{{ nominee.film }}</em> ({{ nominee.year_film }})
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+
+</div>
+{% endfor %}
+
+</body>
+</html>
