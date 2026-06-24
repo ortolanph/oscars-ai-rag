@@ -10,9 +10,9 @@ a movie theater, we are elsewhere, since escaping from a horde of monsters on a 
 even in a real city of the world in some historic moment. Pure magic.
 
 But to transport us to another place, movies have a big team, with people taking care of the scenario, wardrobe, music,
-sound effects, special effects, among others. There is a huge team of professionals doing their work in order to
-transport us where we must be. When one thing is not done well, we feel uncomfortable and we remember that we are sit on
-a movie theater. They must do their work well. They must be the best.
+sound effects, special effects, among others. There is a huge team of professionals doing their work in order
+totransport us where we must be. When one thing is not done well, we feel uncomfortable and we remember that we are sit
+on a movie theater. They must do their work well. They must be the best.
 
 And to be recognized, there are movie festivals, where a small sample of the movies are selected during a certain period
 of time (commonly one year). There is a lot of festivals nowadays and one of them
@@ -59,8 +59,8 @@ by storing the data in a separate database as a side library for an AI client. T
 ## The Data
 
 The data used on this article was extracted
-from [Kaggle The Oscar Award, 1927 - 2026 dataset](https://www.kaggle.com/datasets/unanimad/the-oscar-award) that is
-an online community for data science and machine learning. It's a Google subsidiary which serves as a central hub where
+from [Kaggle The Oscar Award, 1927 - 2026 dataset](https://www.kaggle.com/datasets/unanimad/the-oscar-award) that is an
+online community for data science and machine learning. It's a Google subsidiary which serves as a central hub where
 practitioners and enthusiasts can collaborate, share resources, and test their skills.
 
 There are 11240 lines of data with all the Oscars information. This data is structured as a CSV file, so it'll be easy
@@ -69,7 +69,7 @@ categories.
 
 ## How it works
 
-First things first. 
+First things first.
 
 ## Monitoring
 
