@@ -57,7 +57,12 @@ Other problem that RAG solves is that data can reside in a private environment. 
 Database controlled by a company, not publicly available. Datasets with sensitive data can use RAG to train their local
 AI models to answer external customers questions without exposing too much information.
 
-Basically
+Basically it takes the user input, performs a similarity search on the preloaded database, joins the users question
+with the before with the result with the similarity search results, sends to the LLM, waits for the response, and
+finally returns the response to the user. Seems a lot of things to do, but it's not. Preloading the data is the key for
+fast answers. The data source can be alive being fed everytime new information is available at the source.
+
+![RAG.png](RAG.png)
 
 ## The Data
 
