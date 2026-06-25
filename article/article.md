@@ -37,24 +37,27 @@ The [code for this article](https://github.com/ortolanph/oscars-ai-rag) is locat
 
 ## RAG - Retrieval-augmented Generation
 
-This project uses a datasource in CSV format, ingests it into a Vector Database (in this
-case [Redis](https://redis.io/)), exposes an endpoint to accept input in natural language, select the data from this
-database, asks an AI API to compile the data with the prompt, and returns a response to the user.
+LLMs knows about The Oscars? But what do they know? Everything? If you ask a question to ChatGPT for who won the Oscars
+in 1957, what it will answer? I've tried this and the answer was right:
 
-The main magic here is to load (or ingest) the data in the database. AI alone can't extract anything from thin air. Even
-if you ask in a client like [Chat GPT](https://chatgpt.com/) or [Google Gemini](https://gemini.google.com/), they will
-perform a web search, assemble a small database, and work with their data.
+![oscars_1957_best_picture.png](oscars_1957_best_picture.png)
 
-But the problem is that companies have sensible data on which can not be exposed to public or processed in public use
-AI. It's a huge security problem. Other problem is that ChatGPT and Google Gemini are generic clients, they have no
-knowledge of the company's data. Mistakes can be done and response can not be satisfactory.
+But, notice one thing: it had to search the web to find the answer. It probably consumed some extra tokens and in this
+AI time, tokens are money. Imagine a system in which you have lots of clients and they are asking many different
+questions, and the system must search the web to compose an answer. It's a money spreading system. You or your company
+will run out of tokens fast.
 
-[Retrieval-augmented generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) solves this problem
-by storing the data in a separate database as a side library for an AI client. There are two main components:
+What if the data of all The Oscars history is available for a system to answer these kinds of questions (or
+more)? https://en.wikipedia.org/wiki/Retrieval-augmented_generation is a technique on which is possible to use data of
+any kind (structured or unstructured) to train your AI model to answer questions. Structured means files like CSV, JSON,
+XML, and unstructured means files like PDF documents, images, audios, videos, web pages (like the AI used to respond the
+question above), and others that does not contains a certain repeatable format.
 
-1. The Retriever: collect data from databases, documents or other knowledge sources (structured or unstructured) (
-   audios, videos, web pages, images) to create a solid source of data
-2. Generator: a model on which transforms the ingested data into a human-readable response according to the user prompt
+Other problem that RAG solves is that data can reside in a private environment. The training data is stored in a Vector
+Database controlled by a company, not publicly available. Datasets with sensitive data can use RAG to train their local
+AI models to answer external customers questions without exposing too much information.
+
+Basically
 
 ## The Data
 
