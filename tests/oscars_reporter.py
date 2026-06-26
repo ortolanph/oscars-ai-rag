@@ -112,4 +112,18 @@ if __name__ == '__main__':
     with open(f'oscars.md', 'w') as report:
         report.writelines(rendered_document)
 
+    with open("oscars_template.html", "r") as report_template:
+        template = Template(
+            report_template.read(),
+            trim_blocks=True,
+            lstrip_blocks=True
+        )
+
+    rendered_document = template.render(
+        oscars=report_data,
+    )
+
+    with open(f'oscars.html', 'w') as report:
+        report.writelines(rendered_document)
+
     print("--------------------------------------------------------------------------------")

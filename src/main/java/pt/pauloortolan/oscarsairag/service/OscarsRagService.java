@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class OscarsRagService {
 
-    private static final int TOP_K = 5;
+    private static final int TOP_K = 15;
 
     private final ChatClient chatClient;
     private final VectorStore vectorStore;
