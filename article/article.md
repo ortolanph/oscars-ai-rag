@@ -54,13 +54,14 @@ XML, and unstructured means files like PDF documents, images, audios, videos, we
 question above), and others that does not contains a certain repeatable format.
 
 Other problem that RAG solves is that data can reside in a private environment. The training data is stored in a Vector
-Database controlled by a company, not publicly available. Datasets with sensitive data can use RAG to train their local
-AI models to answer external customers questions without exposing too much information.
+Database controlled by the company, not publicly available. Datasets with sensitive data can use RAG to train their
+local AI models to answer external customers questions without exposing information with consent.
 
-Basically it takes the user input, performs a similarity search on the preloaded database, joins the users question
-with the before with the result with the similarity search results, sends to the LLM, waits for the response, and
+Basically it takes the user input (the question), performs a similarity search on the preloaded database, joins the
+user's question with the result of the similarity search results, sends to the LLM, waits for the response, and
 finally returns the response to the user. Seems a lot of things to do, but it's not. Preloading the data is the key for
-fast answers. The data source can be alive being fed everytime new information is available at the source.
+fast answers. The data source can be alive being fed everytime new information is available at the source. The diagram
+illustrates this process:
 
 ![RAG.png](RAG.png)
 
@@ -75,18 +76,78 @@ There are 11240 lines of data with all the Oscars information. This data is stru
 to ingest with the right framework. It could be a document file (PDF) with styles to separate ceremonies, and the
 categories.
 
+The graphic below shows the relation between The Oscars nominees and winners along the time. One thing that can be seen
+is that the winners represent 20% of the winners.
+
+![oscars_nominees_winners.png](oscars_nominees_winners.png)
+
 ## How it works
 
-First things first.
+Now that everything is known, it's coding time! Yeah!
 
-## Monitoring
+![happy_coding.jpeg](happy_coding.jpeg)
+
+First thing is to implement the ingestor which will transform the datasource into data for the Vector database. The
+selected database was [Redis](https://redis.io/). The configuration class DataIngestor was created for that just for
+didactic purposes. In a real world system, this database should be preloaded.
+
+To ingest all the lines, I divided the loading into batches of 500 lines. I checked that there are an average of 115
+lines per ceremony. It could be divided with this, but the loading time should be slower. The main thing is converting
+the data into an unit on which the AI API will understand. This unit is a Document class, but imported from
+`org.springframework.ai.document` package:
+
+```java
+    String text = OSCAR_PHRASE.formatted(
+        name,
+        yearCeremony, ordinal(ceremony), yearFilm,
+        canonCategory.isBlank() ? category : canonCategory,
+        film,
+        isWinner ? "They WON the award." : "They did not win.");
+
+    return new
+
+Document(text, Map.of(
+                 "year_film", yearFilm,
+            "year_ceremony",yearCeremony,
+            "ceremony",ceremony,
+            "category",category,
+            "canon_category",canonCategory,
+            "name",name,
+            "film",film,
+            "winner",winner
+         ));
+```
+
+The JSON below is what is saved on the database. I decided to abbreviate the embeddings, that is the numerical
+representation of the data that allows the AI understand the data. Check this link for the full content.
+
+```json lines
+{
+  "canon_category": "ACTRESS IN A LEADING ROLE",
+  "winner": "False",
+  "ceremony": "73",
+  "year_film": "2000",
+  "name": "Juliette Binoche",
+  "embedding": [
+    (...)
+  ],
+  "film": "Chocolat",
+  "category": "ACTRESS IN A LEADING ROLE",
+  "content": "Juliette Binoche was nominated at the 2001 Academy Awards (ceremony #73rd, year 2000) in the category \"ACTRESS IN A LEADING ROLE\" for the film \"Chocolat\". They did not win.",
+  "year_ceremony": "2001"
+}
+```
+
+
+
+## Testing and Monitoring
 
 ## Some thoughts
 
 Something is missing here. There are some questions that could not be answered like:
 
 One thing that I could do is to break the ingestion of data by ceremony (ceremony field) and not by a number to divide
-the data. This way I could extract some extra information like:
+the data. This could be a bit slower, but I could extract some extra information like:
 
 * The most nominated movie of the season
 * The most winner movie of the season
