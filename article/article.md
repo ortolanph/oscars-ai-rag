@@ -37,7 +37,7 @@ The [code for this article](https://github.com/ortolanph/oscars-ai-rag) is locat
 
 ## RAG - Retrieval-augmented Generation
 
-LLMs knows about The Oscars? But what do they know? Everything? If you ask a question to ChatGPT for who won the Oscars
+Do LLMs knows about The Oscars? But what do they know? Everything? If you ask a question to ChatGPT for who won the Oscars
 in 1957, what it will answer? I've tried this and the answer was right:
 
 ![oscars_1957_best_picture.png](oscars_1957_best_picture.png)
@@ -284,8 +284,7 @@ the data in batches. This could be a bit slower as I mentioned before, but I cou
 * The most winner movie of the season
 * [The Big Five](https://en.wikipedia.org/wiki/List_of_Big_Five_Academy_Award_winners_and_nominees) movies (
   a movie that won the best movie, best director, best actor, best actress, and best screenplay adapted or original)
-* Ranking of countries that won an Oscar in the International Feature Film category and their movies for a season and
-  overall
+* Ranking of countries that won an Oscar in the International Feature Film category and their movies for a season and overall
 * Many others...
 
 This way, the similarity search could work much better and add more layers for the AI make better responses.
